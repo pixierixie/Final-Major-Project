@@ -17,24 +17,33 @@ $ relationship = 0
 # The game starts here.
 
 label start:
-
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-
     scene bg entrance
+    show henry at center
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
+    # Start of dialogue
 
+    "This is Henry"
+    "He's one of the characters in the game"
+
+    h "This is just to show how the game will look"
+    h "Each character has unique colour codes for their name"
+
+    chl "For example, Chloe's dialogue box will look like this"
+
+    h "I can also be in different places on the screen"
+    show henry at left with move 
+    h "See?"
+    h "Now we have room for someone else"
+    show chloe at right
+    chl "Heeeey!"
+
+    h "I can also change sprites"
+    show henry blush
+    h "See...?"
     show henry
 
-    # These display lines of dialogue.
-
-    h "You've created a new Ren'Py game."
-
-    h "Once you add a story, pictures, and music, you can release it to the world!"
+    h "The player can also choose a name"
+    h "If they don't, one is assigned to them"
 
     #Let's player input their name
     $ player_name = renpy.input("What's your name???")
@@ -42,13 +51,27 @@ label start:
 
     #If player doesn't choose a name, assign one for them
     if player_name == "":
-        $ player_name="LMAO"
-
+        $ player_name="Player"
 
     h "Nice to meet you, %(player_name)s!"
 
+    # Simple show of a dialogue option
+    menu:
+        "Here are some options:"
+
+        "Option A":
+            "You chose option A!"
+
+        "Option B":
+            "You chose option B!"
+
+        "Option C":
+            "You chose option C!"
 
 
+    h "End of choices"
+    h "This is mostly an engine test, not actual gameplay"
+    h "This will all be replaced later"
     # This ends the game.
 
     return

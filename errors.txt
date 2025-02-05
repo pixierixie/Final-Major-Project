@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 13: invalid syntax
-    Character"Casper", color="#")
-              ^
+File "game/script.rpy", line 45: expected statement.
+    move henry at left with move 
+               ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Jan 31 10:11:33 2025
+Wed Feb  5 13:38:13 2025

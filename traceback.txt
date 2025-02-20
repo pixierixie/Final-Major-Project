@@ -1,24 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 57, in script
-    u (color="#8FEDF1") "Oh no, did we kill them?!"
-Exception: Sayer 'u (color="#8FEDF1")' is not defined.
+OSError: [Errno 28] No space left on device
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 57, in script
-    u (color="#8FEDF1") "Oh no, did we kill them?!"
-  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
-    Say.execute(self)
-  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'u (color="#8FEDF1")' is not defined.
+  File "D:\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.3.4-sdk\renpy\main.py", line 666, in main
+    renpy.persistent.update(True)
+  File "D:\renpy-8.3.4-sdk\renpy\persistent.py", line 434, in update
+    save()
+  File "D:\renpy-8.3.4-sdk\renpy\persistent.py", line 456, in save
+    renpy.loadsave.location.save_persistent(compressed)
+  File "D:\renpy-8.3.4-sdk\renpy\savelocation.py", line 622, in save_persistent
+    l.save_persistent(data)
+  File "D:\renpy-8.3.4-sdk\renpy\savelocation.py", line 427, in save_persistent
+    f.write(data)
+OSError: [Errno 28] No space left on device
 
-Windows-10-10.0.26100 AMD64
+Windows-10-10.0.10586 AMD64
 Ren'Py 8.3.4.24120703
 Final Major Project 1.0
-Mon Feb 17 15:43:44 2025
+Thu Feb 20 11:34:19 2025

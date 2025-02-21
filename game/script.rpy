@@ -10,10 +10,11 @@ define p = Character("???", color="#2e1e66")
 define m = Character("Madeline", color="#")
 define l = Character("Leon", color="#4663cf")
 define r = Character("Rigby", color="#7cdf68")
-define cas = Character("Casper", color="#")
+define cas = Character("Casper", color="#911111")
 define u = Character("???")
-define player = Character("You")
+define player = Character("[player_name]")
 
+#unused variable for now
 $ relationship = 0
 
 # The game starts here.
@@ -22,7 +23,7 @@ label start:
     scene bg blank
     
     #Let's player input their name
-    $ player_name = renpy.input("What's your name???")
+    $ player_name = renpy.input("What's your name?")
     $ player_name = player_name.strip()
 
     #If player doesn't choose a name, assign one for them
@@ -59,12 +60,14 @@ label start:
     u "If they ain’t, they’ll come to in like… a day or so."
     "Three faces are peering down at me."
     "One of them smiles at me."
-    show chloe at left
+    show chloe 
     u "Hey! Glad you’re okay, you scared us for a second!"
-    show henry at center
+    show chloe at left with move
+    show henry at right
     u "Scared you, you mean."
     u "You were worried too!"
     "The silver haired man huffs, but his eyes remain on me."
+    show henry at center with move
     show casper at right
     "The quiet one spares a glance, before looking away."
     "The girl leans close and studies my face."
@@ -80,7 +83,7 @@ label start:
     u "You are cute when you are confused…"
     show henry
     u "Allow me to introduce myself."
-    h "I am Henry, your hard drive"
+    h "I am Henry, your hard drive."
     player "My... hard drive?"
     h "Correct."
 

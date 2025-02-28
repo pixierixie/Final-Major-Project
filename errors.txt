@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 98: choice menuitem expects a non-empty block.
-    "I guess you can stay...":
-                              ^
+File "game/script.rpy", line 26: positional argument follows keyword argument
+    player_name = renpy.input("What's your name?", length=10, exclude=1,2,3,4,5,6,7,8,9,0)
+                                                                                          ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Wed Feb 26 14:49:56 2025
+Fri Feb 28 11:20:59 2025

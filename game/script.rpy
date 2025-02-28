@@ -23,7 +23,7 @@ label start:
     scene bg blank
     
     #Let's player input their name
-    $ player_name = renpy.input("What's your name?")
+    $ player_name = renpy.input("What's your name?", length=20, exclude='{1,2,3,4,5,6,7,8,9,0,.,-,+,;:,/,?,`,¬,@,#,~,[,],=,*,!,",£,$,%,^,&,(,),_,|,\}')
     $ player_name = player_name.strip()
 
     #If player doesn't choose a name, assign one for them
@@ -60,7 +60,7 @@ label start:
     u "If they ain’t, they’ll come to in like… a day or so."
     "Three faces are peering down at me."
     "One of them smiles at me."
-    show chloe 
+    show chloe
     u "Hey! Glad you’re okay, you scared us for a second!"
     show chloe at left with move
     show henry at right

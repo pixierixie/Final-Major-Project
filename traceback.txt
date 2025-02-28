@@ -1,26 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-OSError: [Errno 28] No space left on device
+  File "game/script.rpy", line 63, in script
+    show chloe at halfsize
+  File "game/script.rpy", line 63, in <module>
+    show chloe at halfsize
+NameError: name 'halfsize' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "D:\renpy-8.3.4-sdk\renpy\main.py", line 666, in main
-    renpy.persistent.update(True)
-  File "D:\renpy-8.3.4-sdk\renpy\persistent.py", line 434, in update
-    save()
-  File "D:\renpy-8.3.4-sdk\renpy\persistent.py", line 456, in save
-    renpy.loadsave.location.save_persistent(compressed)
-  File "D:\renpy-8.3.4-sdk\renpy\savelocation.py", line 622, in save_persistent
-    l.save_persistent(data)
-  File "D:\renpy-8.3.4-sdk\renpy\savelocation.py", line 427, in save_persistent
-    f.write(data)
-OSError: [Errno 28] No space left on device
+  File "game/script.rpy", line 63, in script
+    show chloe at halfsize
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1076, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1076, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 63, in <module>
+    show chloe at halfsize
+NameError: name 'halfsize' is not defined
 
-Windows-10-10.0.10586 AMD64
+Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.4.24120703
-Final Major Project 1.0
-Thu Feb 20 11:34:19 2025
+Reboot 1.0
+Fri Feb 28 11:00:18 2025

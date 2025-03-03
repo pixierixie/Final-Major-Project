@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 26: positional argument follows keyword argument
-    player_name = renpy.input("What's your name?", length=10, exclude=1,2,3,4,5,6,7,8,9,0)
-                                                                                          ^
+File "game/script.rpy", line 83: end of line expected.
+    u "You are cute when you are confused…"{nw}
+                                           ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Feb 28 11:20:59 2025
+Mon Mar  3 19:07:44 2025

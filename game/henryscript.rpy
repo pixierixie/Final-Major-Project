@@ -179,8 +179,56 @@ label Henry_Route:
         jump Henry_Good_End
     
 label Henry_Bad_End:
+    scene bg lounge
+    show henry at center
+    player "Feelings?"
+    player "You’re not serious?"
+    h "You do not feel the same?"
+    player "No! Of course I don’t, you weirdo!"
+    h "What…?"
+    h "You…"
+    h "You do not like me…?"
+    h "Even after everything I have helped you with…?"
+    h "[player_name]..."
     scene bg blank
-    h "Bad"
+    h "{color=#b00000}{b}You idiot.{/color}{/b}"
+    
+    scene bg lounge
+    show henry angry
+    h "Is it Chloe?"
+    h "Has she stolen you from me?"
+    h "Or Casper… that lazy bastard."
+    h "You have been nothing but cruel, [player_name]."
+    h "Toying with me like this. Like I am just some USB you throw away when it snaps."
+    h "You chose me."
+    h "Nevermind, I will help you see."
+    "Before I can register anything else, a sharp shock pierces through my body."
+    
+    scene bg distortbedroom
+    with fade
+    show henry yandere
+    h "You are awake?"
+    h "Good, I was beginning to worry."
+    "As I blink awake, my eyes drift over to Henry."
+    "He was looking at me with a sick expression, one of twisted evil."
+    "In his hands were shattered parts and blood."
+    h "Oh, these?"
+    "Henry’s face twists into a smirk."
+    h "They are not needed anymore."
+    h "I took care of everything."
+    "I go to move my hands but find that I can’t."
+    player "Wh…"
+    "My tongue doesn’t move how it should."
+    "What the hell is going on?"
+    "Why can’t I-"
+    h "Why can you not move?"
+    h "Take it easy now. You have had a stressful day."
+    h "How about you just relax and eat something, yes?"
+    "He cups my cheek with an unexpected gentleness."
+    h "I made ramen."
+    scene bg blank
+    "{b}-Bad Ending - Do hard drives dream of electric [player_name]?-{/b}"
+    return
 
 label Henry_Good_End:
     scene bg blank

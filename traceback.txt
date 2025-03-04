@@ -1,32 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 63, in script
-    show chloe at halfsize
-  File "game/script.rpy", line 63, in <module>
-    show chloe at halfsize
-NameError: name 'halfsize' is not defined
+  File "game/henryscript.rpy", line 17, in script
+    $ relationship += -1
+  File "game/henryscript.rpy", line 17, in <module>
+    $ relationship += -1
+NameError: name 'relationship' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 63, in script
-    show chloe at halfsize
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1076, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1076, in <listcomp>
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 63, in <module>
-    show chloe at halfsize
-NameError: name 'halfsize' is not defined
+  File "game/henryscript.rpy", line 17, in script
+    $ relationship += -1
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/henryscript.rpy", line 17, in <module>
+    $ relationship += -1
+NameError: name 'relationship' is not defined
 
-Windows-10-10.0.22631 AMD64
+Windows-10-10.0.10586 AMD64
 Ren'Py 8.3.4.24120703
 Reboot 1.0
-Fri Feb 28 11:00:18 2025
+Tue Mar  4 12:00:55 2025

@@ -122,6 +122,9 @@ label start:
 
             scene bg lounge
             with blinds
+            menu:
+                "Henry Route":
+                    jump Henry_Route
 
             return
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 83: end of line expected.
-    u "You are cute when you are confused…"{nw}
-                                           ^
+File "game/henryscript.rpy", line 125: choice menuitem expects a non-empty block.
+    "Henry":
+            ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Mon Mar  3 19:07:44 2025
+Tue Mar  4 13:11:37 2025

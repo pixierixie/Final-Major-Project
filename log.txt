@@ -1,513 +1,826 @@
-2025-03-03 19:06:11 UTC
-Windows-10-10.0.26100
+2025-03-04 12:32:19 UTC
+Windows-10-10.0.10586
 Ren'Py 8.3.4.24120703
 
-Early init took 0.08s
-Loading error handling took 0.34s
-Loading script took 2.65s
+Early init took 0.74s
+Loading error handling took 1.54s
+Loading script took 8.67s
+Loading save slot metadata took 0.60s
+Loading persistent took 0.00s
+ - Init at renpy/common/00updater.rpy:23 took 0.31878 s.
+ - Init at game/gui.rpy:11 took 0.26708 s.
+ - Init at renpy/common/00library.rpy:450 took 0.27144 s.
+Running init code took 1.08s
+Loading analysis data took 0.11s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.20s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.45s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.18s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.13s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.14s
+Running _start took 0.00s
+Interface start took 0.63s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 104.53s
+Loading error handling took 1.63s
+Loading script took 8.81s
+Loading save slot metadata took 0.67s
+Loading persistent took 0.00s
+ - Init at game/gui.rpy:11 took 0.25558 s.
+ - Init at renpy/common/00library.rpy:450 took 0.26133 s.
+Running init code took 0.63s
+Loading analysis data took 0.14s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.25s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.49s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.25s
+Build styles took 0.04s
+Load screen analysis took 0.05s
+Analyze screens took 0.06s
+Save screen analysis took 0.14s
+Prepare screens took 0.41s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.12s
+Running _start took 0.00s
+Interface start took 0.41s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.14s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 184.61s
+Loading error handling took 0.12s
+Loading script took 1.33s
+Loading save slot metadata took 0.35s
+Loading persistent took 0.00s
+Running init code took 0.30s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.17s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.61s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.34s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.27s
+Build styles took 0.03s
+Load screen analysis took 0.01s
+Analyze screens took 0.09s
+Save screen analysis took 2.03s
+Prepare screens took 0.42s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.11s
+Running _start took 0.00s
+Interface start took 0.35s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 665.31s
+Loading error handling took 1.51s
+Loading script took 8.91s
+Loading save slot metadata took 0.65s
+Loading persistent took 0.00s
+ - Init at game/gui.rpy:11 took 0.25413 s.
+ - Init at renpy/common/00library.rpy:450 took 0.27313 s.
+Running init code took 0.72s
+Loading analysis data took 0.16s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.19s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.47s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.27s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.23s
+Build styles took 0.02s
+Load screen analysis took 0.04s
+Analyze screens took 0.06s
+Save screen analysis took 0.14s
+Prepare screens took 0.43s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.12s
+Running _start took 0.00s
+Interface start took 0.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.16s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 792.15s
+Loading error handling took 0.11s
+Loading script took 1.07s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 74: choice menuitem expects a non-empty block.
+    "Ask about Henry":
+                      ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.82s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 873.94s
+Loading error handling took 0.11s
+Loading script took 1.06s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 74: choice menuitem expects a non-empty block.
+    "Ask about Henry":
+                      ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.63s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1114.08s
+Loading error handling took 0.13s
+Loading script took 1.32s
+Loading save slot metadata took 0.20s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 74: choice menuitem expects a non-empty block.
+    "Ask about Henry":
+                      ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.70s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 1148.10s
+Loading error handling took 0.12s
+Loading script took 1.19s
 Loading save slot metadata took 0.16s
 Loading persistent took 0.00s
 
-File "game/script.rpy", line 83: end of line expected.
-    u {size=-10, color="#6d6d6d"} "You are cute when you are confused…"{/size}
-                                                                       ^
-DPI scale factor: 1.250000
+File "game/henryscript.rpy", line 76: choice menuitem expects a non-empty block.
+    "Ask about Henry":
+                      ^
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.92s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.68s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 35.18s
-Loading error handling took 0.03s
-Loading script took 0.67s
-Loading save slot metadata took 0.02s
+Early init took 1186.19s
+Loading error handling took 0.12s
+Loading script took 1.39s
+Loading save slot metadata took 0.21s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 83: end of line expected.
-    u {size=-10, color="#6d6d6d"} "You are cute when you are confused…"{/size, /color}
-                                                                       ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.34s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 36.90s
-Loading error handling took 0.03s
-Loading script took 0.67s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 83: end of line expected.
-    u {size=-10, color="#6d6d6d"} "You are cute when you are confused…"{/size, /color}
-                                                                       ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.32s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 59.14s
-Loading error handling took 0.03s
-Loading script took 0.70s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 83: end of line expected.
-    u {size=-10, color="#6d6d6d"}"You are cute when you are confused…"{/size, /color}
-                                                                      ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.30s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 92.76s
-Loading error handling took 0.03s
-Loading script took 0.71s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 83: end of line expected.
-    u "You are cute when you are confused…"{nw}
-                                           ^
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.33s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 214.88s
-Loading error handling took 0.04s
-Loading script took 0.81s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.41s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.10s
+Running init code took 0.45s
+Loading analysis data took 0.13s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.18s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.05s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.53s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.250000
+Initial gc took 0.26s
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
+Init translation took 0.23s
+Build styles took 0.02s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
+Analyze screens took 0.08s
+Save screen analysis took 0.36s
+Prepare screens took 0.44s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.07s
+Save bytecode. took 0.18s
+Running _start took 0.01s
+Interface start took 0.52s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 269.92s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
+Early init took 1255.17s
+Loading error handling took 1.66s
+Loading script took 8.98s
+Loading save slot metadata took 2.72s
 Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+ - Init at game/gui.rpy:11 took 0.25291 s.
+ - Init at renpy/common/00library.rpy:450 took 0.26443 s.
+Running init code took 0.69s
+Loading analysis data took 0.14s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.23s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.04s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.51s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
+Initial gc took 0.29s
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Init translation took 0.22s
+Build styles took 0.02s
+Load screen analysis took 0.04s
+Analyze screens took 0.06s
+Save screen analysis took 0.16s
+Prepare screens took 0.42s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
+Save bytecode. took 0.10s
+Running _start took 0.01s
+Interface start took 0.44s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 283.81s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
 Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 434.03s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.23s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 450.61s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 464.51s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.43s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 617.72s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.22s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.02s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.17s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.06s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 1487.63s
+Loading error handling took 0.11s
+Loading script took 1.10s
+Loading save slot metadata took 0.16s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 112: expected menuitem
+    hide henry
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.94s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 628.54s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
+Early init took 1528.57s
+Loading error handling took 0.12s
+Loading script took 1.13s
+Loading save slot metadata took 0.15s
 Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\pixie\\AppData\\Roaming/RenPy/backups\\Final Major Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.250000
+
+File "game/henryscript.rpy", line 112: expected menuitem
+    hide henry
+    ^
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.06s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.66s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Resetting cache.
+Early init took 1617.98s
+Loading error handling took 0.11s
+Loading script took 1.09s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 112: expected menuitem
+    hide henry
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.63s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Resetting cache.
+Early init took 1906.27s
+Loading error handling took 0.14s
+Loading script took 3.23s
+Loading save slot metadata took 0.36s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 112: expected menuitem
+    hide henry
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 1.76s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 991) drawable=(1920, 991)
+Resetting cache.
+Early init took 2169.95s
+Loading error handling took 0.12s
+Loading script took 1.13s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 112: expected menuitem
+    hide henry
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.72s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2352.85s
+Loading error handling took 0.12s
+Loading script took 1.22s
+Loading save slot metadata took 0.17s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 125: choice menuitem expects a non-empty block.
+    "Henry":
+            ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.70s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2357.66s
+Loading error handling took 0.12s
+Loading script took 1.19s
+Loading save slot metadata took 0.16s
+Loading persistent took 0.00s
+
+File "game/henryscript.rpy", line 125: choice menuitem expects a non-empty block.
+    "Henry":
+            ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.76s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2378.20s
+Loading error handling took 0.15s
+Loading script took 1.62s
+Loading save slot metadata took 0.17s
+Loading persistent took 0.00s
+Running init code took 0.43s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.17s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.56s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.25s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.26s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.16s
+Prepare screens took 0.46s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.13s
+Running _start took 0.01s
+Interface start took 0.41s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.20s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 2543.14s
+Loading error handling took 1.65s
+Loading script took 10.26s
+Loading save slot metadata took 0.62s
+Loading persistent took 0.00s
+ - Init at game/gui.rpy:11 took 0.34944 s.
+ - Init at renpy/common/00library.rpy:450 took 0.28785 s.
+Running init code took 0.84s
+Loading analysis data took 0.14s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.24s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.53s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.35s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.23s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.15s
+Prepare screens took 0.44s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.10s
+Running _start took 0.00s
+Interface start took 0.48s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 2568.06s
+Loading error handling took 0.13s
+Loading script took 1.52s
+Loading save slot metadata took 0.24s
+Loading persistent took 0.00s
+Running init code took 0.31s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.17s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.50s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.30s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.24s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.17s
+Prepare screens took 0.47s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.11s
+Running _start took 0.01s
+Interface start took 0.43s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.15s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 2736.68s
+Loading error handling took 0.10s
+Loading script took 1.26s
+Loading save slot metadata took 0.18s
+Loading persistent took 0.00s
+Running init code took 0.33s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.17s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.50s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.34s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.23s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.17s
+Prepare screens took 0.38s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.10s
+Running _start took 0.00s
+Interface start took 0.37s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.15s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Resetting cache.
+Early init took 2837.32s
+Loading error handling took 0.12s
+Loading script took 1.32s
+Loading save slot metadata took 0.21s
+Loading persistent took 0.00s
+Running init code took 0.30s
+Loading analysis data took 0.10s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.16s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.48s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.34s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.26s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.07s
+Save screen analysis took 0.21s
+Prepare screens took 0.48s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.12s
+Running _start took 0.01s
+Interface start took 0.36s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics'
+Version: b'4.4.0 - Build 20.19.15.4300'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.02s
+Load screen analysis took 0.15s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.02s

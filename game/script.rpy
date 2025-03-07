@@ -149,4 +149,4 @@ label Bad_End_1:
     "After a few minutes of trying to process what the fuck just happened, I go back to repairing my PC."
     player "Where the hell did my CPU go...?"
     scene bg blank
-    "{b}-Ending 1: What, it just grew legs and walked away?-{/b}"
+    "{b}-Bad Ending: What, it just grew legs and walked away?-{/b}"

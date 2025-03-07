@@ -12,7 +12,7 @@ define l = Character("Leon", color="#4663cf")
 define r = Character("Rigby", color="#7cdf68")
 define cas = Character("Casper", color="#bd453c")
 define u = Character("???")
-define player = Character("[player_name]")
+define player = Character("[player_name]", color ="#c86bae")
 
 
 # The game starts here.

@@ -14,8 +14,6 @@ define cas = Character("Casper", color="#bd453c")
 define u = Character("???")
 define player = Character("[player_name]")
 
-#unused variable for now
-$ relationship = 0
 
 # The game starts here.
 
@@ -23,7 +21,7 @@ label start:
     scene bg blank
     
     #Let's player input their name
-    $ player_name = renpy.input("What's your name?", length=20, exclude='{1,2,3,4,5,6,7,8,9,0,.,-,+,;:,/,?,`,¬,@,#,~,[,],=,*,!,",£,$,%,^,&,(,),_,|,\}')
+    $ player_name = renpy.input("What's your name?", length=20, exclude='{1,2,3,4,5,6,7,8,9,0,.,-,+,;:,/,?,`,¬,@,#,~,[,],=,*,!,",£,$,%,^,&,(,),_,|,\,<,>}')
     $ player_name = player_name.strip()
 
     #If player doesn't choose a name, assign one for them
@@ -44,11 +42,11 @@ label start:
     scene bg singlebedroom
     with blinds
     "I turn on my PC, ready to unwind with the new game that just came out."
-    "I press the power button and…"
+    "I press the power button and..."
     "Nothing."
     player "Shit."
     "After a few minutes of pulling and plugging various cables, the PC still won’t turn on."
-    player "Must be something wrong with the parts…"
+    player "Must be something wrong with the parts..."
     "I pick up some tools and start to remove the case."
 
     scene bg singlebedroom
@@ -57,7 +55,7 @@ label start:
     "As I blink away the blinding light, trying to get my bearings, several voices can be heard."
     u "Oh no, did we kill them?!"
     u "Of course not. Look, they are fine."
-    u "If they ain’t, they’ll come to in like… a day or so."
+    u "If they ain’t, they’ll come to in like... a day or so."
     "Three faces are peering down at me."
     "One of them smiles at me."
     show chloe
@@ -71,12 +69,12 @@ label start:
     show casper at right
     "The quiet one spares a glance, before looking away."
     "The girl leans close and studies my face."
-    u "A little pale… You should drink something!"
+    u "A little pale... You should drink something!"
     hide chloe
     show henry at left with move
     "She rushes out of the room before anyone has a chance to stop her."
     "The silver haired man sighs and pinches the bridge of his nose."
-    u "Apologies for her. She has a tendency to be a bit… scattered."
+    u "Apologies for her. She has a tendency to be a bit... scattered."
     u "Par for the course with coolant, I am afraid."
     "He must notice my confused expression, because his own changes."
     show henry blush
@@ -89,7 +87,7 @@ label start:
     h "And you are aware of an issue with the Personal Computer, hence why we stand before you now."
     h "Perhaps you should get to know us, so you can find out which one of us is the part causing you such…issue."
     player "So you’re like… my actual PC?"
-    u "Yep. In the flesh. Or… metal, I guess."
+    u "Yep. In the flesh. Or... metal, I guess."
 
     menu:
         "Get out of my house":
@@ -111,7 +109,7 @@ label start:
             player "Right. I’m-"
             h "[player_name]. Yes, we know."
             h "We are your Personal Computer, remember?"
-            player "Please just call it a PC…"
+            player "Please just call it a PC..."
             cas "He’s like physically allergic to that."
             cas "Some kind of directory thing, he has a habit of it."
             show henry angry
@@ -122,6 +120,8 @@ label start:
 
             scene bg lounge
             with blinds
+            "Currently there is only one route, the end of the prologue is unfinished."
+            "Select your route."
             menu:
                 "Henry Route":
                     jump Henry_Route
@@ -147,6 +147,6 @@ label Bad_End_1:
     hide casper
     hide chloe
     "After a few minutes of trying to process what the fuck just happened, I go back to repairing my PC."
-    player "Where the hell did my CPU go…?"
+    player "Where the hell did my CPU go...?"
     scene bg blank
     "{b}-Ending 1: What, it just grew legs and walked away?-{/b}"

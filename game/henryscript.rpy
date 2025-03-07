@@ -3,7 +3,8 @@
 
 
 label Henry_Route:
-    $ relationship = 0
+    $ goodpoint = 0
+    $ badpoint = 0
     
     scene bg lounge
     show henry at center
@@ -15,12 +16,12 @@ label Henry_Route:
     
     menu:
         "You don't have to do that":
-            $ relationship += -1
+            $ badpoint += +1
             h "Oh. It is no trouble, [player_name]."
             h "I insist on helping."
             
         "Thanks, I want to fix this too.":
-            $ relationship += +1
+            $ goodpoint += +1
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
@@ -75,7 +76,7 @@ label Henry_Route:
     
     menu:
         "Ask about Henry":
-            $ relationship += +1
+            $ goodpoint += +1
             show henry blush
             h "You wish to learn about me?"
             h "I would be delighted to share things with you, [player_name]."
@@ -88,7 +89,7 @@ label Henry_Route:
         
         
         "Ask about Chloe":
-            $ relationship += -1
+            $ badpoint += +1
             hide henry
             show chloe blush at center
             chl "Me?! Sure!"
@@ -98,7 +99,7 @@ label Henry_Route:
             chl "The others say I’m kinda like the glue that holds everything together."
         
         "Ask about Casper":
-            $ relationship += -1
+            $ badpoint += +1
             hide henry
             show casper at center
             cas "Hm?"
@@ -123,7 +124,7 @@ label Henry_Route:
         
     menu:
         "Henry":
-            $ relationship += -1
+            $ badpoint += +1
             h "..."
             h "Me?"
             h "May I ask why?"
@@ -143,21 +144,21 @@ label Henry_Route:
                     "I probably shouldn't have said that."
             
         "Chloe":
-            $ relationship += -1
+            $ badpoint += +1
             h "Chloe? How odd."
             h "I suppose her hyperactivity may be a tad much for you."
             h "I do apologise on her behalf."
             "Henry looks upset."
             
         "Casper":
-            $ relationship += -1
+            $ badpoint += +1
             h "Casper?"
             h "They are rather quiet, but that is not out of the ordinary."
             h "But if that is your opinion, I have no right to argue it."
             "Henry looks upset."
                 
         "I don't know":
-            $ relationship += +1
+            $ goodpoint += +1
             h "I see."
             h "Neither do I, if I am being honest."
             h "Shall we continue our investigation?"
@@ -169,26 +170,30 @@ label Henry_Route:
     h "[player_name], I must come clean."
     h "I have been distracted this entire time."
     h "I must confess something."
-    h "Over these past few hours, I have found myself… attached."
+    h "Over these past few hours, I have found myself... attached."
     show henry blush
-    h "Dear [player_name], I believe I have caught… feelings."
-            
-    if relationship <= 1:
+    h "Dear [player_name], I believe I have caught... feelings."
+       
+    #Decides if the player is on the good or bad ending route
+    if badpoint >= 2:
         jump Henry_Bad_End
-    elif relationship >=2:
+    if goodpoint >= 2:
         jump Henry_Good_End
-    
+   
+
+#Bad ending
 label Henry_Bad_End:
     scene bg lounge
-    show henry at center
+    show henry blush at center
     player "Feelings?"
     player "You’re not serious?"
+    show henry
     h "You do not feel the same?"
     player "No! Of course I don’t, you weirdo!"
-    h "What…?"
-    h "You…"
+    h "What...?"
+    h "You..."
     h "You do not like me…?"
-    h "Even after everything I have helped you with…?"
+    h "Even after everything I have helped you with...?"
     h "[player_name]..."
     scene bg blank
     h "{color=#b00000}{b}You idiot.{/color}{/b}"
@@ -197,7 +202,7 @@ label Henry_Bad_End:
     show henry angry
     h "Is it Chloe?"
     h "Has she stolen you from me?"
-    h "Or Casper… that lazy bastard."
+    h "Or Casper... that lazy bastard."
     h "You have been nothing but cruel, [player_name]."
     h "Toying with me like this. Like I am just some USB you throw away when it snaps."
     h "You chose me."
@@ -217,7 +222,7 @@ label Henry_Bad_End:
     h "They are not needed anymore."
     h "I took care of everything."
     "I go to move my hands but find that I can’t."
-    player "Wh…"
+    player "Wh..."
     "My tongue doesn’t move how it should."
     "What the hell is going on?"
     "Why can’t I-"
@@ -230,6 +235,7 @@ label Henry_Bad_End:
     "{b}-Bad Ending - Do hard drives dream of electric [player_name]?-{/b}"
     return
 
+#Good ending
 label Henry_Good_End:
     scene bg blank
-    h "Good"
+    h "Good ending not yet implemented."

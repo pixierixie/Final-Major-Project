@@ -37,7 +37,7 @@ label start:
     player "No raise in five years, yet double the responsibility since Kate quit."
     player "And all I have to show for it is shitty ramen and student loans."
     player "And apparently talking to myself like a crazy person."
-    "I go into the bedroom, peeling off the layers of my work clothes and changing into something much more comfortable."
+    "I enter the bedroom, peeling off the layers of my work clothes and changing into something much more comfortable."
     
     scene bg singlebedroom
     with blinds

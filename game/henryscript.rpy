@@ -125,6 +125,7 @@ label Henry_Route:
     menu:
         "Henry":
             $ badpoint += +1
+            show henry upset
             h "..."
             h "Me?"
             h "May I ask why?"
@@ -145,6 +146,7 @@ label Henry_Route:
             
         "Chloe":
             $ badpoint += +1
+            show henry upset
             h "Chloe? How odd."
             h "I suppose her hyperactivity may be a tad much for you."
             h "I do apologise on her behalf."
@@ -152,6 +154,7 @@ label Henry_Route:
             
         "Casper":
             $ badpoint += +1
+            show henry upset
             h "Casper?"
             h "They are rather quiet, but that is not out of the ordinary."
             h "But if that is your opinion, I have no right to argue it."
@@ -187,7 +190,7 @@ label Henry_Bad_End:
     show henry blush at center
     player "Feelings?"
     player "You’re not serious?"
-    show henry
+    show henry upset
     h "You do not feel the same?"
     player "No! Of course I don’t, you weirdo!"
     h "What...?"
@@ -199,7 +202,7 @@ label Henry_Bad_End:
     h "{color=#b00000}{b}You idiot.{/color}{/b}"
     
     scene bg lounge
-    show henry angry
+    show henry crazy
     h "Is it Chloe?"
     h "Has she stolen you from me?"
     h "Or Casper... that lazy bastard."

@@ -45,14 +45,16 @@ label start:
     "I press the power button and..."
     "Nothing."
     player "Shit."
+    scene bg singlebedroom
+    with fade
     "After a few minutes of pulling and plugging various cables, the PC still won’t turn on."
     player "Must be something wrong with the parts..."
     "I pick up some tools and start to remove the case."
 
     scene bg singlebedroom
-    with fade
+    with pixellate
     player "The fuck..?"
-    "As I blink away the blinding light, trying to get my bearings, several voices can be heard."
+    "As I shake off the electricity running up my arm, several voices can be heard."
     u "Oh no, did we kill them?!"
     u "Of course not. Look, they are fine."
     u "If they ain’t, they’ll come to in like... a day or so."
@@ -78,7 +80,7 @@ label start:
     u "Par for the course with coolant, I am afraid."
     "He must notice my confused expression, because his own changes."
     show henry blush
-    u "{size=-2}{color=#6d6d6d}You are cute when you are confused…{w=0.5}{nw}{/size}{/color}"
+    u "{size=-2}{color=#6d6d6d}You are cute when you are confused…{w=0.3}{nw}{/size}{/color}"
     show henry
     u "Allow me to introduce myself."
     h "I am Henry, your hard drive."

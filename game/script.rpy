@@ -32,6 +32,9 @@ label start:
 
     scene bg entrance
     with fade
+    #Play audio
+    play music "vntrack19.mp3"
+
     # Start of dialogue
     player "Ugh, I seriously need to get a new job."
     player "No raise in five years, yet double the responsibility since Kate quit."
@@ -127,7 +130,7 @@ label start:
             menu:
                 "Henry Route":
                     jump Henry_Route
-
+                    stop music
             return
 
 label Bad_End_1:

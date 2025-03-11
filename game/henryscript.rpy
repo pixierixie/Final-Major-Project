@@ -8,6 +8,8 @@ label Henry_Route:
     
     scene bg lounge
     show henry at center
+    play music "vntrack21.mp3"
+
     h "Ah, me? A wise choice."
     h "Then perhaps I should explain a bit more about us and our purpose here."
     h "We all, of course, wish for your Personal Computer to remain working."
@@ -199,6 +201,7 @@ label Henry_Bad_End:
     h "Even after everything I have helped you with...?"
     h "[player_name]..."
     scene bg blank
+    stop music
     h "{color=#b00000}{b}You idiot.{/color}{/b}"
     
     scene bg lounge
@@ -215,6 +218,7 @@ label Henry_Bad_End:
     scene bg distortbedroom
     with fade
     show henry yandere
+    play music "creepy.mp3"
     h "You are awake?"
     h "Good, I was beginning to worry."
     "As I blink awake, my eyes drift over to Henry."

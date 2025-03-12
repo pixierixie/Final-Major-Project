@@ -1,6 +1,6 @@
 #Henry's route script file
 
-
+define textfile = Character("MyLove.txt", color="#909090")
 
 label Henry_Route:
     $ goodpoint = 0
@@ -244,5 +244,125 @@ label Henry_Bad_End:
 
 #Good ending
 label Henry_Good_End:
+    scene bg lounge
+
+    player "Feelings?"
+    player "Like real, actual feelings?"
+    show henry
+    h "As real as I am."
+    player "Funny."
+    player "But... I get it."
+    player "I’ve kinda got a thing for you as well."
+    show henry blush
+    h "What a relief."
+    #Next line autoskips
+    show henry crazy
+    h "{size=-2}{color=#6d6d6d}That could have gone quite badly.{w=0.3}{nw}{/size}{/color}"
+    show henry blush
+    player "Huh?"
+    show henry
+    h "Hm? Is something the matter?"
+    player "Nevermind..."
+    h "If we are being open, then there is one more thing I must confess."
+    h "None of the three of us are broken."
+    show henry upset
+    h "I just wanted an excuse to spend time with you, [player_name]."
+    player "That's..."
+    menu :
+        "Sweet":
+            h "..."
+            show henry blush
+            h "..."
+            player "Henry?"
+            h "Apologies, I am just…. defragmenting. Yes. Definitely that. Nothing else."
+
+        "Weird":
+            h "Apologies."
+            h "I could not find another suitable solution."
+            player "I mean, it’s fine. Just..."
+            player "Just not the best way, you know?"
+            h "I do understand, I apologise again."
+
+    show henry
+    h "We should start the process of putting your Personal Computer back together again."
+    player "What’ll happen to you?"
+    h "I will still exist, do not worry. Let us focus on repairing things first."
+    h "I will go and fetch the others, you should return to your room."
+    hide henry
+    "Henry leaves first."
+    stop music
+    scene bg distortlounge
+    play music "vntrack09.mp3"
+    "Leaving me alone."
+    "I just met this guy, and I really like him."
+    "But he’s leaving."
+    "{size=-2}I won’t see him again.{w=0.3}{nw}{/size}"
+    "{size=-3}I’ll be all alone again.{w=0.2}{nw}{/size}"
+    "{size=-4}I can't be alone again...{w=0.1}{nw}{/size}"
+    scene bg lounge
+    play music "vntrack21.mp3"
+    show henry
+    h "[player_name]?"
+    "Henry rushes to my side, enveloping me into a hug."
+    h "Hush now, you are safe. I am right here."
+    player "But you won’t be..."
+    h "I always will be a part of your Personal Computer."
+    h "This is not goodbye."
+    h "Let us go back to your room so we can fix this mess."
+    "Henry pulls me up, supporting my arm as he leads me to my room."
+
+    scene bg singlebedroom
+    with blinds
+    show henry at center
+    h "There we are, [player_name]. Nice and steady."
+    hide henry
+    "The other two are already here."
+    "Chloe rushes over to hug me herself."
+
+    scene bg singlebedroom
+    with hpunch
+    show chloe
+    chl "Please don’t cry!"
+    chl "It’ll be okay!"
+    "She squeezes me a bit too tight."
+    show chloe at left with move
+    show casper at right
+    cas "Chloe, you’re strangling the poor bastard."
+    chl "Oh! Sorry!"
+    hide casper
+    show chloe at center with move
+    "She releases me and steps back a bit."
+    hide chloe
+    player "I’m gonna miss you guys."
+    show henry at center
+    h "We will still exist, remember?"
+    h "Close your eyes."
+    h "When you open them again, fix your Personal Computer."
+    h "Simple, yes? Just count to three, you can do that."
+    "He holds my hands as I close my eyes."
+
     scene bg blank
-    h "Good ending not yet implemented."
+    with fade
+    player "One..."
+    "His hands get colder."
+    player "Two..."
+    "His hands slip from mine."
+    player "Three..."
+
+    scene bg singlebedroom
+    with fade
+    "I open my eyes and on the floor are all the parts of my PC."
+    "They’re really gone."
+
+    scene bg singlebedroom
+    with fade
+    "I finally turn my PC back on."
+    "It boots perfectly."
+    "But there’s a strange text file on my computer."
+    "MyLove.txt."
+    "I click on it."
+    textfile "See? I said it was not goodbye. ^_^"
+
+    scene bg blank
+    "{b}-Good Ending - This is not goodbye -{/b}"
+    return

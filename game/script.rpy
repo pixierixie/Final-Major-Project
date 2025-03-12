@@ -83,7 +83,8 @@ label start:
     u "Par for the course with coolant, I am afraid."
     "He must notice my confused expression, because his own changes."
     show henry blush
-    u "{size=-2}{color=#6d6d6d}You are cute when you are confused…{w=0.3}{nw}{/size}{/color}"
+    #This line is smaller, grey and autoskips
+    u "{size=-2}{color=#6d6d6d}You are cute when you are confused...{w=0.3}{nw}{/size}{/color}"
     show henry
     u "Allow me to introduce myself."
     h "I am Henry, your hard drive."

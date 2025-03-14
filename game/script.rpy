@@ -3,19 +3,78 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Henry", color="#909090")
+define h = Character("Henry", color="#909090", callback = name_callback, cb_name = "Henry")
 define cal = Character("Callie", color="#")
-define chl = Character("Chloe", color="#8FEDF1")
+define chl = Character("Chloe", color="#8FEDF1", callback = name_callback, cb_name = "Chloe")
 define p = Character("???", color="#2e1e66")
 define m = Character("Madeline", color="#")
 define l = Character("Leon", color="#4663cf")
 define r = Character("Rigby", color="#7cdf68")
-define cas = Character("Casper", color="#bd453c")
+define cas = Character("Casper", color="#bd453c", callback = name_callback, cb_name = "Casper")
 
-define uh = Character("???", color="#909090")
-define uchl = Character("???", color="#8FEDF1")
-define ucas = Character("???", color="#bd453c")
-define player = Character("[player_name]", color ="#c86bae")
+define uh = Character("???", color="#909090",  callback = name_callback, cb_name = "Henry")
+define uchl = Character("???", color="#8FEDF1", callback = name_callback, cb_name = "Chloe")
+define ucas = Character("???", color="#bd453c", callback = name_callback, cb_name = "Casper")
+
+define player = Character("[player_name]", color ="#c86bae", callback = name_callback, cb_name = None)
+
+##Narrator is defined in case the characters weren't greyed out when they should be
+ narrator = Character("", callback = name_callback, cb_name = None)
+
+##Setup for auto highlight
+image henry:
+    "images/henry.png"
+    function SpriteFocus('Henry')
+image henry angry:
+    "images/henry angry.png"
+    function SpriteFocus('Henry')
+image henry blush:
+    "images/henry blush.png"
+    function SpriteFocus('Henry')
+image henry crazy:
+    "images/henry crazy.png"
+    function SpriteFocus('Henry')
+image henry upset:
+    "images/henry upset.png"
+    function SpriteFocus('Henry')
+image henry yandere:
+    "images/henry yandere.png"
+    function SpriteFocus('Henry')
+
+
+image chloe:
+    "images/chloe.png"
+    function SpriteFocus('Chloe')
+image chloe blush:
+    "images/chloe blush.png"
+    function SpriteFocus('Chloe')
+image chloe drain:
+    "images/chloe drain.png"
+    function SpriteFocus('Chloe')
+image chloe glitch:
+    "images/chloe glitch.png"
+    function SpriteFocus('Chloe')
+image chloe upset:
+    "images/chloe upset.png"
+    function SpriteFocus('Chloe')
+
+
+image casper:
+    "images/casper.png"
+    function SpriteFocus('Casper')
+image casper angry:
+    "images/casper angry.png"
+    function SpriteFocus('Casper')
+image casper blush:
+    "images/casper blush.png"
+    function SpriteFocus('Casper')
+image casper glitch:
+    "images/casper glitch.png"
+    function SpriteFocus('Casper')
+image casper gum:
+    "images/casper gum.png"
+    function SpriteFocus('Casper')
+
 
 
 # The game starts here.
@@ -60,7 +119,7 @@ label start:
     scene bg singlebedroom
     with pixellate
     player "The fuck..?"
-    "As I shake off the electricity running up my arm, I can hear several voices in the room."
+    narrator "As I shake off the electricity running up my arm, I can hear several voices in the room."
     uchl "Oh no, did we kill them?!"
     uh "Of course not. Look, they are fine."
     ucas "If they ain’t, they’ll come to in like... a day or so."
@@ -72,10 +131,10 @@ label start:
     show henry at right
     uh "Scared you, you mean."
     uchl "You were worried too!"
-    "The silver haired man huffs, but his eyes remain on me."
+    narrator "The silver haired man huffs, but his eyes remain on me."
     show henry at center with move
     show casper at right
-    "The quiet one spares a glance, before looking away."
+    narrator "The quiet one spares a glance, before looking away."
     "The girl leans close and studies my face."
     uchl "A little pale... You should drink something!"
     hide chloe

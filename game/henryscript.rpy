@@ -300,6 +300,8 @@ label Henry_Good_End:
     "{size=-2}I won’t see him again.{w=0.3}{nw}{/size}"
     "{size=-3}I’ll be all alone again.{w=0.2}{nw}{/size}"
     "{size=-4}I can't be alone again...{w=0.1}{nw}{/size}"
+    "{sc}I CAN'T BE ALONE AGAIN{w=0.2}{nw}{/sc}"
+
     scene bg lounge
     play music "vntrack21.mp3"
     show henry

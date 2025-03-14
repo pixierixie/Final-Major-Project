@@ -1,84 +1,35 @@
-2025-03-14 14:33:33 UTC
+2025-03-14 16:06:16 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.4.24120703
 
 Early init took 0.07s
-Loading error handling took 0.10s
-Loading script took 1.95s
-Loading save slot metadata took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.29s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.29s
-Loading analysis data took 0.02s
+Running init code took 0.14s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.11s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Dump and make backups took 0.04s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.02s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.36s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(2560, 1369) drawable=(2560, 1369)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(958, 484) drawable=(958, 484)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 301.07s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
+Creating interface object took 0.35s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.06s
 
@@ -95,8 +46,331 @@ Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/henryscript.rpy", line 303, in script
+    "{size=-4}{sc}I can't be alone again...{w=0.1}{nw}{/size}{/sc}"
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 785, in display_say
+    what_text.update()
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2297, in update
+    tokens = self.apply_custom_tags(tokens)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2889, in apply_custom_tags
+    new_contents = func(tag, value, contents)
+  File "game/kinetic_text_tags.rpy", line 596, in scare_tag
+    elif not my_style.add_tags(text):
+  File "game/kinetic_text_tags.rpy", line 79, in add_tags
+    self.tags.pop(tag)
+  File "D:\renpy-8.3.4-sdk\renpy\revertable.py", line 90, in do_mutation
+    return method(self, *args, **kwargs)
+KeyError: 'size'
+
+While running game code:
+  File "game/henryscript.rpy", line 303, in script
+    "{size=-4}{sc}I can't be alone again...{w=0.1}{nw}{/size}{/sc}"
+  File "game/kinetic_text_tags.rpy", line 596, in scare_tag
+    elif not my_style.add_tags(text):
+  File "game/kinetic_text_tags.rpy", line 79, in add_tags
+    self.tags.pop(tag)
+KeyError: 'size'
 Resetting cache.
-Early init took 304.42s
+Early init took 57.17s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 82.87s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 136.54s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/henryscript.rpy", line 304, in script
+    "{glitch=1.1}{color=#0f0}{b}Glitch{/b}{/color} Tag{/glitch}"
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\screen.py", line 752, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 1457, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2600, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 730, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 1526, in segment
+    raise Exception("Unknown text tag %r" % text)
+Exception: Unknown text tag 'glitch=1.1'
+
+While processing text tag {glitch=1.1} in '{glitch=1.1}{color=#0f0}{b}Glitch{/b}{/color} Tag{/glitch}'.:
+  File "game/henryscript.rpy", line 304, in script
+    "{glitch=1.1}{color=#0f0}{b}Glitch{/b}{/color} Tag{/glitch}"
+Exception: Unknown text tag 'glitch=1.1'
+Resetting cache.
+Early init took 145.87s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 167.27s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 188.86s
 Loading error handling took 0.02s
 Loading script took 0.17s
 Loading save slot metadata took 0.02s
@@ -120,7 +394,7 @@ Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.02s
+Save screen analysis took 0.01s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s
@@ -140,27 +414,11 @@ Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 65, in script
-    u "Of course not. Look, they are fine."
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
-    Say.execute(self)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'u' is not defined.
-
-While running game code:
-  File "game/script.rpy", line 65, in script
-    u "Of course not. Look, they are fine."
-Exception: Sayer 'u' is not defined.
 Resetting cache.
-Early init took 335.22s
+Early init took 202.80s
 Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
@@ -168,7 +426,7 @@ Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.04s
+Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.03s
@@ -201,27 +459,118 @@ Maximum texture size: 4096x4096
 controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 235.08s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
 
 Full traceback:
-  File "game/script.rpy", line 99, in script
-    u "Yep. In the flesh. Or... metal, I guess."
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{b}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/b}{/i}"
   File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'u' is not defined.
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\screen.py", line 752, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 1457, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2600, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 730, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 1271, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: '/b' closes a text tag that isn't open.
 
-While running game code:
-  File "game/script.rpy", line 99, in script
-    u "Yep. In the flesh. Or... metal, I guess."
-Exception: Sayer 'u' is not defined.
+While processing text tag {/b} in "{sc}{b}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/b}{/i}".:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{b}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/b}{/i}"
+Exception: '/b' closes a text tag that isn't open.
 Resetting cache.
-Early init took 552.00s
+Early init took 294.88s
 Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
@@ -264,36 +613,430 @@ Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 
 Full traceback:
-  File "game/script.rpy", line 151, in script
-    u "Whoa, tension."
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}"
   File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
     Say.execute(self)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'u' is not defined.
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\screen.py", line 752, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 1457, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2600, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 730, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 1271, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: '/i' closes a text tag that isn't open.
 
-While running game code:
-  File "game/script.rpy", line 151, in script
-    u "Whoa, tension."
-Exception: Sayer 'u' is not defined.
+While processing text tag {/i} in "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}".:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}"
+Exception: '/i' closes a text tag that isn't open.
 Resetting cache.
-Early init took 600.08s
-Loading error handling took 0.07s
-Loading script took 1.19s
-Loading save slot metadata took 0.15s
+Early init took 297.08s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.15s
-Loading analysis data took 0.02s
+Running init code took 0.03s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.09s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}"
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\screen.py", line 752, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 1457, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2600, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 730, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 1271, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: '/i' closes a text tag that isn't open.
+
+While processing text tag {/i} in "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}".:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{i}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/i}"
+Exception: '/i' closes a text tag that isn't open.
+Resetting cache.
+Early init took 306.43s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
 Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 355.48s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{color=#b00000}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/color}"
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 621, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\renpy-8.3.4-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\renpy-8.3.4-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\renpy-8.3.4-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\screen.py", line 752, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\display\layout.py", line 1457, in render
+    surf = render(child,
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 2600, in render
+    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 730, in __init__
+    self.paragraphs = self.segment(text.tokens, style, renders, text)
+  File "D:\renpy-8.3.4-sdk\renpy\text\text.py", line 1271, in segment
+    raise Exception("%r closes a text tag that isn't open." % text)
+Exception: '/color' closes a text tag that isn't open.
+
+While processing text tag {/color} in "{sc}{color=#b00000}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/color}".:
+  File "game/henryscript.rpy", line 303, in script
+    "{sc}{color=#b00000}I CAN'T BE ALONE AGAIN{w=0.1}{nw}{/sc}{/color}"
+Exception: '/color' closes a text tag that isn't open.
+Resetting cache.
+Early init took 372.48s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 412.48s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 561.09'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
+Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 424.95s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
@@ -324,105 +1067,15 @@ controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
 Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 639.74s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
+Early init took 435.92s
+Loading error handling took 0.06s
+Loading script took 1.29s
+Loading save slot metadata took 0.12s
 Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
+Running init code took 0.15s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 662.98s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 683.01s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+Reloading save slot metadata took 0.09s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
 Dump and make backups took 0.05s
@@ -432,110 +1085,13 @@ Initial gc took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
+Creating interface object took 0.01s
 Cleaning stores took 0.00s
 Init translation took 0.03s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Early init took 760.02s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 893.67s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.01s

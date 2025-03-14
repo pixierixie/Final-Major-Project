@@ -17,7 +17,7 @@ label Henry_Route:
     h "I will personally assist you as much as my abilities allow."
     
     menu:
-        "You don't have to do that":
+        "You don't have to do that.":
             $ badpoint += +1
             h "Oh. It is no trouble, [player_name]."
             h "I insist on helping."
@@ -132,14 +132,14 @@ label Henry_Route:
             h "Me?"
             h "May I ask why?"
             menu:
-                "You're weird":
+                "You're weird.":
                     h "Weird…"
                     h "I suppose I cannot blame you too much."
                     h "We are hardly in an ideal or usual situation."
                     "He goes silent."
                     "I shouldn’t have said that."
                     
-                "I'm not sure":
+                "I'm not sure.":
                     h "Just the… ‘vibes’ then?"
                     h "I am off putting to you."
                     h "Well, I do hope that changes in time."
@@ -162,7 +162,7 @@ label Henry_Route:
             h "But if that is your opinion, I have no right to argue it."
             "Henry looks upset."
                 
-        "I don't know":
+        "I don't know.":
             $ goodpoint += +1
             h "I see."
             h "Neither do I, if I am being honest."

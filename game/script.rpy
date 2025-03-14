@@ -99,7 +99,7 @@ label start:
     ucas "Yep. In the flesh. Or... metal, I guess."
 
     menu:
-        "Get out of my house":
+        "Get out of my house!":
             jump Bad_End_1
             
 

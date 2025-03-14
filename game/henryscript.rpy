@@ -245,10 +245,9 @@ label Henry_Bad_End:
 #Good ending
 label Henry_Good_End:
     scene bg lounge
-
+    show henry blush at center
     player "Feelings?"
     player "Like real, actual feelings?"
-    show henry
     h "As real as I am."
     player "Funny."
     player "But... I get it."

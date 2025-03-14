@@ -94,8 +94,8 @@ label start:
     player "My... hard drive?"
     h "Correct."
     h "And you are aware of an issue with the Personal Computer, hence why we stand before you now."
-    h "Perhaps you should get to know us, so you can find out which one of us is the part causing you such…issue."
-    player "So you’re like… my actual PC?"
+    h "Perhaps you should get to know us, so you can find out which one of us is the part causing you such...issue."
+    player "So you’re like... my actual PC?"
     ucas "Yep. In the flesh. Or... metal, I guess."
 
     menu:

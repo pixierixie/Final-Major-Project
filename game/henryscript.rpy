@@ -84,10 +84,10 @@ label Henry_Route:
             h "I would be delighted to share things with you, [player_name]."
             h "I work tirelessly to make sure your files are kept safe and organised in the correct places."
             show henry
-            h "To compare it to a human job… I suppose I am an archivist."
+            h "To compare it to a human job... I suppose I am an archivist."
             h "Ah, I suppose you do not care much about that though."
             h "I quite enjoy it when you download something, it keeps me busy."
-            h "Even when the contents is… less than pure, shall we say."
+            h "Even when the contents is... less than pure, shall we say."
         
         
         "Ask about Chloe":
@@ -140,7 +140,7 @@ label Henry_Route:
                     "I shouldn’t have said that."
                     
                 "I'm not sure.":
-                    h "Just the… ‘vibes’ then?"
+                    h "Just the... ‘vibes’ then?"
                     h "I am off putting to you."
                     h "Well, I do hope that changes in time."
                     "He smiles, but it’s empty."

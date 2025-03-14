@@ -17,7 +17,7 @@ label Henry_Route:
     h "I will personally assist you as much as my abilities allow."
     
     menu:
-        "You don't have to do that.":
+        "I don't need your help.":
             $ badpoint += +1
             h "Oh. It is no trouble, [player_name]."
             h "I insist on helping."
@@ -27,14 +27,15 @@ label Henry_Route:
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
-    "Me and Henry start to list out every part and I make notes based on Henry’s descriptions."
+    "Henry and I start to list out every part, and I make notes based on Henry’s descriptions."
     h "From my perspective, everyone has been behaving relatively well."
     h "That does not mean to say that somebody is not hiding something from you."
     player "Then why don’t we take a break?"
     player "No point in staring at the page as if the answer will jump out at us."
     h "You do have a point."
     "Henry stands from his spot on the sofa."
-    h "Chloe is still in the kitchen, I will go and get some refreshments. Sit tight."
+    h "Chloe is still in the kitchen, so I will go and get some refreshments from her."
+    h "Sit tight."
     hide henry
     "Henry exits the room, leaving me alone for the first time since this crazy shit started."
     "But the peace is soon shattered by a shout."
@@ -87,7 +88,7 @@ label Henry_Route:
             h "To compare it to a human job... I suppose I am an archivist."
             h "Ah, I suppose you do not care much about that though."
             h "I quite enjoy it when you download something, it keeps me busy."
-            h "Even when the contents is... less than pure, shall we say."
+            h "Even when the content is... less than pure, shall we say."
         
         
         "Ask about Chloe":
@@ -95,7 +96,7 @@ label Henry_Route:
             hide henry
             show chloe blush at center
             chl "Me?! Sure!"
-            chl "I work pretty hard, you know!"
+            chl "I work pretty hard, ya know!"
             chl "Without me, your entire setup would go boom!"
             chl "But I love my job, I get to go around all day and check on everyone."
             chl "The others say I’m kinda like the glue that holds everything together."
@@ -133,7 +134,7 @@ label Henry_Route:
             h "May I ask why?"
             menu:
                 "You're weird.":
-                    h "Weird…"
+                    h "Weird..."
                     h "I suppose I cannot blame you too much."
                     h "We are hardly in an ideal or usual situation."
                     "He goes silent."
@@ -197,7 +198,7 @@ label Henry_Bad_End:
     player "No! Of course I don’t, you weirdo!"
     h "What...?"
     h "You..."
-    h "You do not like me…?"
+    h "You do not like me...?"
     h "Even after everything I have helped you with...?"
     h "[player_name]..."
     scene bg blank
@@ -210,7 +211,8 @@ label Henry_Bad_End:
     h "Has she stolen you from me?"
     h "Or Casper... that lazy bastard."
     h "You have been nothing but cruel, [player_name]."
-    h "Toying with me like this. Like I am just some USB you throw away when it snaps."
+    h "Toying with me like this."
+    h "Like I am just some USB you throw away when it snaps."
     h "You chose me."
     h "Nevermind, I will help you see."
     "Before I can register anything else, a sharp shock pierces through my body."
@@ -273,7 +275,7 @@ label Henry_Good_End:
             show henry blush
             h "..."
             player "Henry?"
-            h "Apologies, I am just…. defragmenting. Yes. Definitely that. Nothing else."
+            h "Apologies, I am just... defragmenting. Yes. Definitely that. Nothing else."
 
         "Weird":
             h "Apologies."

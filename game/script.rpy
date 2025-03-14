@@ -19,7 +19,7 @@ define ucas = Character("???", color="#bd453c", callback = name_callback, cb_nam
 define player = Character("[player_name]", color ="#c86bae", callback = name_callback, cb_name = None)
 
 ##Narrator is defined in case the characters weren't greyed out when they should be
- narrator = Character("", callback = name_callback, cb_name = None)
+define narrator = Character("", callback = name_callback, cb_name = None)
 
 ##Setup for auto highlight
 image henry:

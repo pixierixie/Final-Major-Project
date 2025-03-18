@@ -1,63 +1,20 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-Compiling ATL code at game/script.rpy:27
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-RecursionError: maximum recursion depth exceeded while calling a Python object
+After initialization, but before game start.
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\Final-Major-Project\\game\\saves\\navigation.json.new' -> 'D:\\Final-Major-Project\\game\\saves\\navigation.json'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
-    renpy.config.show(name,
-  File "D:\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 503, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "D:\renpy-8.3.4-sdk\renpy\display\scenelists.py", line 477, in add
-    thing.visit_all(lambda d : None)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 970 more times]
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 540, in visit
-    self.find_target()
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "D:\renpy-8.3.4-sdk\renpy\display\transform.py", line 1194, in _duplicate
-    rv.take_execution_state(self)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 551, in take_execution_state
-    block = self.compile()
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 723, in compile
-    block = self.atl.compile(self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 2085, in compile
-    return Function(self.loc, ctx.eval(self.expr))
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 387, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-  File "D:\renpy-8.3.4-sdk\renpy\revertable.py", line 474, in __new__
-    self = super(RevertableObject, cls).__new__(cls)
-RecursionError: maximum recursion depth exceeded while calling a Python object
+  File "D:\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\renpy-8.3.4-sdk\renpy\main.py", line 599, in main
+    renpy.dump.dump(False)
+  File "D:\renpy-8.3.4-sdk\renpy\dump.py", line 262, in dump
+    os.rename(new, filename)
+PermissionError: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\Final-Major-Project\\game\\saves\\navigation.json.new' -> 'D:\\Final-Major-Project\\game\\saves\\navigation.json'
 
-Windows-10-10.0.22631 AMD64
+Windows-10-10.0.10586 AMD64
 Ren'Py 8.3.4.24120703
 Reboot 0.5
-Fri Mar 14 16:34:49 2025
+Tue Mar 18 13:11:59 2025

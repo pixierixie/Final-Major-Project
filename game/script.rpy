@@ -3,23 +3,23 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define h = Character("Henry", color="#909090", callback = name_callback, cb_name = "Henry")
+define h = Character("Henry", color="#767676", callback = name_callback, cb_name = "Henry")
 define cal = Character("Callie", color="#")
-define chl = Character("Chloe", color="#8FEDF1", callback = name_callback, cb_name = "Chloe")
+define chl = Character("Chloe", color="#4CA4A9", callback = name_callback, cb_name = "Chloe")
 define p = Character("???", color="#2e1e66")
 define m = Character("Madeline", color="#")
 define l = Character("Leon", color="#4663cf")
 define r = Character("Rigby", color="#7cdf68")
 define cas = Character("Casper", color="#bd453c", callback = name_callback, cb_name = "Casper")
 
-define uh = Character("???", color="#909090",  callback = name_callback, cb_name = "Henry")
-define uchl = Character("???", color="#8FEDF1", callback = name_callback, cb_name = "Chloe")
+define uh = Character("???", color="#767676",  callback = name_callback, cb_name = "Henry")
+define uchl = Character("???", color="#4CA4A9", callback = name_callback, cb_name = "Chloe")
 define ucas = Character("???", color="#bd453c", callback = name_callback, cb_name = "Casper")
 
-define player = Character("[player_name]", color ="#c86bae", callback = name_callback, cb_name = None)
+define player = Character("[player_name]", color ="#FFFFFF", callback = name_callback, cb_name = None)
 
 ##Narrator is defined in case the characters weren't greyed out when they should be
-define narrator = Character("", callback = name_callback, cb_name = None)
+define narrator = Character(name=None, callback = name_callback, cb_name = None)
 
 ##Setup for auto highlight
 image henry:
@@ -83,7 +83,7 @@ label start:
     scene bg blank
     
     #Let's player input their name
-    $ player_name = renpy.input("What's your name?", length=20, exclude='{1,2,3,4,5,6,7,8,9,0,.,-,+,;:,/,?,`,¬,@,#,~,[,],=,*,!,",£,$,%,^,&,(,),_,|,\,<,>}')
+    $ player_name = renpy.input("What's your name?", length=10, exclude='{1,2,3,4,5,6,7,8,9,0,.,-,+,;:,/,?,`,¬,@,#,~,[,],=,*,!,",£,$,%,^,&,(,),_,|,\,<,>}')
     $ player_name = player_name.strip()
 
     #If player doesn't choose a name, assign one for them

@@ -1,877 +1,241 @@
-2025-03-14 16:34:18 UTC
-Windows-10-10.0.22631
+2025-03-18 13:16:08 UTC
+Windows-10-10.0.10586
 Ren'Py 8.3.4.24120703
 
-Early init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata took 0.03s
+Early init took 1.62s
+Loading error handling took 0.41s
+Loading script took 8.43s
+Loading save slot metadata took 0.42s
 Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
+ - Init at renpy/common/00library.rpy:450 took 0.36655 s.
+Running init code took 1.06s
+Loading analysis data took 0.16s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.38s
 Index archives took 0.00s
-Dump and make backups took 0.05s
+Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
+Dump and make backups took 1.20s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.03s
+Initial gc took 0.41s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.37s
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
 Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
+Init translation took 0.39s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.17s
+Save screen analysis took 0.23s
+Prepare screens took 0.72s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.32s
 Running _start took 0.00s
-Interface start took 0.06s
+Interface start took 6.62s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
+UGUU couldn't find b'glActiveTexture': b'That operation is not supported'
+UGUU couldn't find b'glAttachShader': b'That operation is not supported'
+UGUU couldn't find b'glBeginQuery': b'That operation is not supported'
+UGUU couldn't find b'glBeginTransformFeedback': b'That operation is not supported'
+UGUU couldn't find b'glBindAttribLocation': b'That operation is not supported'
+UGUU couldn't find b'glBindBuffer': b'That operation is not supported'
+UGUU couldn't find b'glBindBufferBase': b'That operation is not supported'
+UGUU couldn't find b'glBindBufferRange': b'That operation is not supported'
+UGUU couldn't find b'glBindFramebuffer': b'That operation is not supported'
+UGUU couldn't find b'glBindRenderbuffer': b'That operation is not supported'
+UGUU couldn't find b'glBindVertexArray': b'That operation is not supported'
+UGUU couldn't find b'glBlendColor': b'That operation is not supported'
+UGUU couldn't find b'glBlendEquation': b'That operation is not supported'
+UGUU couldn't find b'glBlendEquationSeparate': b'That operation is not supported'
+UGUU couldn't find b'glBlendFuncSeparate': b'That operation is not supported'
+UGUU couldn't find b'glBlitFramebuffer': b'That operation is not supported'
+UGUU couldn't find b'glBufferData': b'That operation is not supported'
+UGUU couldn't find b'glBufferSubData': b'That operation is not supported'
+UGUU couldn't find b'glCheckFramebufferStatus': b'That operation is not supported'
+UGUU couldn't find b'glClearBufferfi': b'That operation is not supported'
+UGUU couldn't find b'glClearBufferfv': b'That operation is not supported'
+UGUU couldn't find b'glClearBufferiv': b'That operation is not supported'
+UGUU couldn't find b'glClearBufferuiv': b'That operation is not supported'
+UGUU couldn't find b'glCompileShader': b'That operation is not supported'
+UGUU couldn't find b'glCompressedTexImage2D': b'That operation is not supported'
+UGUU couldn't find b'glCompressedTexImage3D': b'That operation is not supported'
+UGUU couldn't find b'glCompressedTexSubImage2D': b'That operation is not supported'
+UGUU couldn't find b'glCompressedTexSubImage3D': b'That operation is not supported'
+UGUU couldn't find b'glCopyTexSubImage3D': b'That operation is not supported'
+UGUU couldn't find b'glCreateProgram': b'That operation is not supported'
+UGUU couldn't find b'glCreateShader': b'That operation is not supported'
+UGUU couldn't find b'glDeleteBuffers': b'That operation is not supported'
+UGUU couldn't find b'glDeleteFramebuffers': b'That operation is not supported'
+UGUU couldn't find b'glDeleteProgram': b'That operation is not supported'
+UGUU couldn't find b'glDeleteQueries': b'That operation is not supported'
+UGUU couldn't find b'glDeleteRenderbuffers': b'That operation is not supported'
+UGUU couldn't find b'glDeleteShader': b'That operation is not supported'
+UGUU couldn't find b'glDeleteVertexArrays': b'That operation is not supported'
+UGUU couldn't find b'glDetachShader': b'That operation is not supported'
+UGUU couldn't find b'glDisableVertexAttribArray': b'That operation is not supported'
+UGUU couldn't find b'glDrawBuffers': b'That operation is not supported'
+UGUU couldn't find b'glDrawRangeElements': b'That operation is not supported'
+UGUU couldn't find b'glEnableVertexAttribArray': b'That operation is not supported'
+UGUU couldn't find b'glEndQuery': b'That operation is not supported'
+UGUU couldn't find b'glEndTransformFeedback': b'That operation is not supported'
+UGUU couldn't find b'glFlushMappedBufferRange': b'That operation is not supported'
+UGUU couldn't find b'glFramebufferRenderbuffer': b'That operation is not supported'
+UGUU couldn't find b'glFramebufferTexture2D': b'That operation is not supported'
+UGUU couldn't find b'glFramebufferTextureLayer': b'That operation is not supported'
+UGUU couldn't find b'glGenBuffers': b'That operation is not supported'
+UGUU couldn't find b'glGenFramebuffers': b'That operation is not supported'
+UGUU couldn't find b'glGenQueries': b'That operation is not supported'
+UGUU couldn't find b'glGenRenderbuffers': b'That operation is not supported'
+UGUU couldn't find b'glGenVertexArrays': b'That operation is not supported'
+UGUU couldn't find b'glGenerateMipmap': b'That operation is not supported'
+UGUU couldn't find b'glGetActiveAttrib': b'That operation is not supported'
+UGUU couldn't find b'glGetActiveUniform': b'That operation is not supported'
+UGUU couldn't find b'glGetAttachedShaders': b'That operation is not supported'
+UGUU couldn't find b'glGetAttribLocation': b'That operation is not supported'
+UGUU couldn't find b'glGetBufferParameteriv': b'That operation is not supported'
+UGUU couldn't find b'glGetBufferPointerv': b'That operation is not supported'
+UGUU couldn't find b'glGetFragDataLocation': b'That operation is not supported'
+UGUU couldn't find b'glGetFramebufferAttachmentParameteriv': b'That operation is not supported'
+UGUU couldn't find b'glGetIntegeri_v': b'That operation is not supported'
+UGUU couldn't find b'glGetProgramInfoLog': b'That operation is not supported'
+UGUU couldn't find b'glGetProgramiv': b'That operation is not supported'
+UGUU couldn't find b'glGetQueryObjectuiv': b'That operation is not supported'
+UGUU couldn't find b'glGetQueryiv': b'That operation is not supported'
+UGUU couldn't find b'glGetRenderbufferParameteriv': b'That operation is not supported'
+UGUU couldn't find b'glGetShaderInfoLog': b'That operation is not supported'
+UGUU couldn't find b'glGetShaderSource': b'That operation is not supported'
+UGUU couldn't find b'glGetShaderiv': b'That operation is not supported'
+UGUU couldn't find b'glGetStringi': b'That operation is not supported'
+UGUU couldn't find b'glGetTransformFeedbackVarying': b'That operation is not supported'
+UGUU couldn't find b'glGetUniformLocation': b'That operation is not supported'
+UGUU couldn't find b'glGetUniformfv': b'That operation is not supported'
+UGUU couldn't find b'glGetUniformiv': b'That operation is not supported'
+UGUU couldn't find b'glGetUniformuiv': b'That operation is not supported'
+UGUU couldn't find b'glGetVertexAttribIiv': b'That operation is not supported'
+UGUU couldn't find b'glGetVertexAttribIuiv': b'That operation is not supported'
+UGUU couldn't find b'glGetVertexAttribPointerv': b'That operation is not supported'
+UGUU couldn't find b'glGetVertexAttribfv': b'That operation is not supported'
+UGUU couldn't find b'glGetVertexAttribiv': b'That operation is not supported'
+UGUU couldn't find b'glIsBuffer': b'That operation is not supported'
+UGUU couldn't find b'glIsFramebuffer': b'That operation is not supported'
+UGUU couldn't find b'glIsProgram': b'That operation is not supported'
+UGUU couldn't find b'glIsQuery': b'That operation is not supported'
+UGUU couldn't find b'glIsRenderbuffer': b'That operation is not supported'
+UGUU couldn't find b'glIsShader': b'That operation is not supported'
+UGUU couldn't find b'glIsVertexArray': b'That operation is not supported'
+UGUU couldn't find b'glLinkProgram': b'That operation is not supported'
+UGUU couldn't find b'glMapBufferRange': b'That operation is not supported'
+UGUU couldn't find b'glRenderbufferStorage': b'That operation is not supported'
+UGUU couldn't find b'glRenderbufferStorageMultisample': b'That operation is not supported'
+UGUU couldn't find b'glSampleCoverage': b'That operation is not supported'
+UGUU couldn't find b'glShaderSource': b'That operation is not supported'
+UGUU couldn't find b'glStencilFuncSeparate': b'That operation is not supported'
+UGUU couldn't find b'glStencilMaskSeparate': b'That operation is not supported'
+UGUU couldn't find b'glStencilOpSeparate': b'That operation is not supported'
+UGUU couldn't find b'glTexImage3D': b'That operation is not supported'
+UGUU couldn't find b'glTexSubImage3D': b'That operation is not supported'
+UGUU couldn't find b'glTransformFeedbackVaryings': b'That operation is not supported'
+UGUU couldn't find b'glUniform1f': b'That operation is not supported'
+UGUU couldn't find b'glUniform1fv': b'That operation is not supported'
+UGUU couldn't find b'glUniform1i': b'That operation is not supported'
+UGUU couldn't find b'glUniform1iv': b'That operation is not supported'
+UGUU couldn't find b'glUniform1ui': b'That operation is not supported'
+UGUU couldn't find b'glUniform1uiv': b'That operation is not supported'
+UGUU couldn't find b'glUniform2f': b'That operation is not supported'
+UGUU couldn't find b'glUniform2fv': b'That operation is not supported'
+UGUU couldn't find b'glUniform2i': b'That operation is not supported'
+UGUU couldn't find b'glUniform2iv': b'That operation is not supported'
+UGUU couldn't find b'glUniform2ui': b'That operation is not supported'
+UGUU couldn't find b'glUniform2uiv': b'That operation is not supported'
+UGUU couldn't find b'glUniform3f': b'That operation is not supported'
+UGUU couldn't find b'glUniform3fv': b'That operation is not supported'
+UGUU couldn't find b'glUniform3i': b'That operation is not supported'
+UGUU couldn't find b'glUniform3iv': b'That operation is not supported'
+UGUU couldn't find b'glUniform3ui': b'That operation is not supported'
+UGUU couldn't find b'glUniform3uiv': b'That operation is not supported'
+UGUU couldn't find b'glUniform4f': b'That operation is not supported'
+UGUU couldn't find b'glUniform4fv': b'That operation is not supported'
+UGUU couldn't find b'glUniform4i': b'That operation is not supported'
+UGUU couldn't find b'glUniform4iv': b'That operation is not supported'
+UGUU couldn't find b'glUniform4ui': b'That operation is not supported'
+UGUU couldn't find b'glUniform4uiv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix2fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix2x3fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix2x4fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix3fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix3x2fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix3x4fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix4fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix4x2fv': b'That operation is not supported'
+UGUU couldn't find b'glUniformMatrix4x3fv': b'That operation is not supported'
+UGUU couldn't find b'glUnmapBuffer': b'That operation is not supported'
+UGUU couldn't find b'glUseProgram': b'That operation is not supported'
+UGUU couldn't find b'glValidateProgram': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib1f': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib1fv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib2f': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib2fv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib3f': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib3fv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib4f': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttrib4fv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribI4i': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribI4iv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribI4ui': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribI4uiv': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribIPointer': b'That operation is not supported'
+UGUU couldn't find b'glVertexAttribPointer': b'That operation is not supported'
+The following gl functions are missing:
+- glActiveTexture
+- glAttachShader
+- glBindFramebuffer
+- glBindRenderbuffer
+- glBlendEquation
+- glBlendEquationSeparate
+- glBlendFuncSeparate
+- glCompileShader
+- glCreateProgram
+- glCreateShader
+- glDeleteFramebuffers
+- glDeleteRenderbuffers
+- glDeleteShader
+- glDisableVertexAttribArray
+- glEnableVertexAttribArray
+- glFramebufferRenderbuffer
+- glFramebufferTexture2D
+- glGenFramebuffers
+- glGenRenderbuffers
+- glGenerateMipmap
+- glGetAttribLocation
+- glGetProgramInfoLog
+- glGetProgramiv
+- glGetShaderInfoLog
+- glGetShaderiv
+- glGetUniformLocation
+- glLinkProgram
+- glRenderbufferStorage
+- glShaderSource
+- glUniform1f
+- glUniform1i
+- glUniform2f
+- glUniform3f
+- glUniform4f
+- glUniformMatrix4fv
+- glUseProgram
+- glVertexAttribPointer
 
-Full traceback:
-  File "game/script.rpy", line 82, in script
-    show henry neutral at right
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
-    renpy.config.show(name,
-  File "D:\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 477, in show
-    if not base.find_target() and renpy.config.missing_show:
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "D:\renpy-8.3.4-sdk\renpy\display\transform.py", line 1188, in _duplicate
-    args.extraneous()
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 109, in extraneous
-    raise Exception("Image '{}' does not accept attributes '{}'.".format(
-Exception: Image 'henry' does not accept attributes 'neutral'.
-
-While running game code:
-  File "game/script.rpy", line 82, in script
-    show henry neutral at right
-Exception: Image 'henry' does not accept attributes 'neutral'.
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 28.07s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
+Vendor: "b'Google Inc.'"
+Renderer: b'ANGLE (Microsoft Basic Render Driver Direct3D11 vs_5_0 ps_5_0)'
+Version: b'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
-    renpy.config.show(name,
-  File "D:\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 503, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "D:\renpy-8.3.4-sdk\renpy\display\scenelists.py", line 477, in add
-    thing.visit_all(lambda d : None)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 970 more times]
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 540, in visit
-    self.find_target()
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "D:\renpy-8.3.4-sdk\renpy\display\transform.py", line 1194, in _duplicate
-    rv.take_execution_state(self)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 551, in take_execution_state
-    block = self.compile()
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 723, in compile
-    block = self.atl.compile(self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 2085, in compile
-    return Function(self.loc, ctx.eval(self.expr))
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 387, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-  File "D:\renpy-8.3.4-sdk\renpy\revertable.py", line 474, in __new__
-    self = super(RevertableObject, cls).__new__(cls)
-RecursionError: maximum recursion depth exceeded while calling a Python object
-
-Compiling ATL code at game/script.rpy:27
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-RecursionError: maximum recursion depth exceeded while calling a Python object
-Resetting cache.
-Early init took 30.10s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
-    renpy.config.show(name,
-  File "D:\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 503, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "D:\renpy-8.3.4-sdk\renpy\display\scenelists.py", line 477, in add
-    thing.visit_all(lambda d : None)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 434, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 970 more times]
-  File "D:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 540, in visit
-    self.find_target()
-  File "D:\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
-    self.target = target._duplicate(a)
-  File "D:\renpy-8.3.4-sdk\renpy\display\transform.py", line 1194, in _duplicate
-    rv.take_execution_state(self)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 551, in take_execution_state
-    block = self.compile()
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 723, in compile
-    block = self.atl.compile(self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 925, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 2085, in compile
-    return Function(self.loc, ctx.eval(self.expr))
-  File "D:\renpy-8.3.4-sdk\renpy\atl.py", line 387, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-  File "D:\renpy-8.3.4-sdk\renpy\revertable.py", line 474, in __new__
-    self = super(RevertableObject, cls).__new__(cls)
-RecursionError: maximum recursion depth exceeded while calling a Python object
-
-Compiling ATL code at game/script.rpy:27
-  File "game/script.rpy", line 82, in script
-    show henry at right
-  File "game/script.rpy", line 27, in <module>
-    function SpriteFocus('henry')
-RecursionError: maximum recursion depth exceeded while calling a Python object
-Resetting cache.
-Early init took 69.26s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Early init took 244.09s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 337.59s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 352.94s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Early init took 399.21s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 473.69s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 545.07s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 562.05s
-Loading error handling took 0.07s
-Loading script took 1.25s
-Loading save slot metadata took 0.15s
-Loading persistent took 0.00s
-Running init code took 0.15s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 603.25s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Early init took 773.96s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 901.46s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 69: Indentation mismatch.
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 913.69s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 69: Indentation mismatch.
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 938.03s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\6rixe08\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1794, 1009) drawable=(1794, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Early init took 1057.59s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 22: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    narrator = Character("", callback = name_callback, cb_name = None)
-    ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b'DRS_SaveSettings() = -1.' (can be ignored)
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 2060/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 561.09'
-Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
-Maximum texture size: 4096x4096
-controller: '030000005e0400008e02000000007200' 'Xbox 360 Controller' 1
-Screen sizes: virtual=(1280, 720) physical=(1920, 1009) drawable=(1920, 1009)
+Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
 Maximum texture size: 4096x4096

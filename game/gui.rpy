@@ -50,7 +50,7 @@ define gui.muted_color = '#510028'
 define gui.hover_muted_color = '#7a003d'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = '#ffffff'
+define gui.text_color = '#D05A6C'
 define gui.interface_text_color = '#ffffff'
 
 
@@ -116,7 +116,7 @@ define gui.name_xalign = 0.0
 ## The width, height, and borders of the box containing the character's name, or
 ## None to automatically size it.
 define gui.namebox_width = None
-define gui.namebox_height = None
+define gui.namebox_height = 50
 
 ## The borders of the box containing the character's name, in left, top, right,
 ## bottom order.

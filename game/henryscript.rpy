@@ -27,10 +27,10 @@ label Henry_Route:
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
-    "Henry and I start to list out every part, and I make notes based on Henry’s descriptions."
+    "Henry and I start to list out every part, and I make notes based on Henry's descriptions."
     h "From my perspective, everyone has been behaving relatively well."
     h "That does not mean to say that somebody is not hiding something from you."
-    player "Then why don’t we take a break?"
+    player "Then why don't we take a break?"
     player "No point in staring at the page as if the answer will jump out at us."
     h "You do have a point."
     "Henry stands from his spot on the sofa."
@@ -51,7 +51,7 @@ label Henry_Route:
     h "Apologies for raiding your cupboards."
     h "Eat. You need your strength."
     "He smiles, opening the bag and placing it on my lap."
-    chl "I’ll go get Casper and we can have a picnic!"
+    chl "I'll go get Casper and we can have a picnic!"
     
     hide chloe
     show henry at center with move
@@ -99,7 +99,7 @@ label Henry_Route:
             chl "I work pretty hard, ya know!"
             chl "Without me, your entire setup would go boom!"
             chl "But I love my job, I get to go around all day and check on everyone."
-            chl "The others say I’m kinda like the glue that holds everything together."
+            chl "The others say I'm kinda like the glue that holds everything together."
         
         "Ask about Casper":
             $ badpoint += +1
@@ -110,7 +110,7 @@ label Henry_Route:
             cas "I just kinda hand out instructions."
             cas "Easy shit really."
             cas "Until you overclock me, of course."
-            cas "That’s fun."
+            cas "That's fun."
             cas "And chaotic. Very chaotic."
         
     hide henry
@@ -141,7 +141,7 @@ label Henry_Route:
                     "I shouldn’t have said that."
                     
                 "I'm not sure.":
-                    h "Just the... ‘vibes’ then?"
+                    h "Just the... 'vibes' then?"
                     h "I am off putting to you."
                     h "Well, I do hope that changes in time."
                     "He smiles, but it’s empty."
@@ -171,7 +171,7 @@ label Henry_Route:
             "Henry goes right back to our notes, organising them like the files of my computer."
                 
                 
-    "After some more consideration, we’re back to square one again."
+    "After some more consideration, we're back to square one again."
     show henry
     h "[player_name], I must come clean."
     h "I have been distracted this entire time."
@@ -192,10 +192,10 @@ label Henry_Bad_End:
     scene bg lounge
     show henry blush at center
     player "Feelings?"
-    player "You’re not serious?"
+    player "You're not serious?"
     show henry upset
     h "You do not feel the same?"
-    player "No! Of course I don’t, you weirdo!"
+    player "No! Of course I don't, you weirdo!"
     h "What...?"
     h "You..."
     h "You do not like me...?"
@@ -230,11 +230,11 @@ label Henry_Bad_End:
     "Henry’s face twists into a smirk."
     h "They are not needed anymore."
     h "I took care of everything."
-    "I go to move my hands but find that I can’t."
+    "I go to move my hands but find that I can't."
     player "Wh..."
-    "My tongue doesn’t move how it should."
+    "My tongue doesn't move how it should."
     "What the hell is going on?"
-    "Why can’t I-"
+    "Why can't I-"
     h "Why can you not move?"
     h "Take it easy now. You have had a stressful day."
     h "How about you just relax and eat something, yes?"
@@ -253,7 +253,7 @@ label Henry_Good_End:
     h "As real as I am."
     player "Funny."
     player "But... I get it."
-    player "I’ve kinda got a thing for you as well."
+    player "I've kinda got a thing for you as well."
     show henry blush
     h "What a relief."
     #Next line autoskips
@@ -280,13 +280,13 @@ label Henry_Good_End:
         "Weird":
             h "Apologies."
             h "I could not find another suitable solution."
-            player "I mean, it’s fine. Just..."
+            player "I mean, it's fine. Just..."
             player "Just not the best way, you know?"
             h "I do understand, I apologise again."
 
     show henry
     h "We should start the process of putting your Personal Computer back together again."
-    player "What’ll happen to you?"
+    player "What'll happen to you?"
     h "I will still exist, do not worry. Let us focus on repairing things first."
     h "I will go and fetch the others, you should return to your room."
     hide henry
@@ -296,9 +296,9 @@ label Henry_Good_End:
     play music "vntrack09.mp3"
     "Leaving me alone."
     "I just met this guy, and I really like him."
-    "But he’s leaving."
-    "{size=-2}I won’t see him again.{w=0.3}{nw}{/size}"
-    "{size=-3}I’ll be all alone again.{w=0.2}{nw}{/size}"
+    "But he's leaving."
+    "{size=-2}I won't see him again.{w=0.3}{nw}{/size}"
+    "{size=-3}I'll be all alone again.{w=0.2}{nw}{/size}"
     "{size=-4}I can't be alone again...{w=0.1}{nw}{/size}"
     "{sc}I CAN'T BE ALONE AGAIN{w=0.2}{nw}{/sc}"
 
@@ -308,7 +308,7 @@ label Henry_Good_End:
     h "[player_name]?"
     "Henry rushes to my side, enveloping me into a hug."
     h "Hush now, you are safe. I am right here."
-    player "But you won’t be..."
+    player "But you won't be..."
     h "I always will be a part of your Personal Computer."
     h "This is not goodbye."
     h "Let us go back to your room so we can fix this mess."
@@ -325,18 +325,18 @@ label Henry_Good_End:
     scene bg singlebedroom
     with hpunch
     show chloe
-    chl "Please don’t cry!"
-    chl "It’ll be okay!"
+    chl "Please don't cry!"
+    chl "It'll be okay!"
     "She squeezes me a bit too tight."
     show chloe at left with move
     show casper at right
-    cas "Chloe, you’re strangling the poor bastard."
+    cas "Chloe, you're strangling the poor bastard."
     chl "Oh! Sorry!"
     hide casper
     show chloe at center with move
     "She releases me and steps back a bit."
     hide chloe
-    player "I’m gonna miss you guys."
+    player "I'm gonna miss you guys."
     show henry at center
     h "We will still exist, remember?"
     h "Close your eyes."
@@ -355,13 +355,13 @@ label Henry_Good_End:
     scene bg singlebedroom
     with fade
     "I open my eyes and on the floor are all the parts of my PC."
-    "They’re really gone."
+    "They're really gone."
 
     scene bg singlebedroom
     with fade
     "I finally turn my PC back on."
     "It boots perfectly."
-    "But there’s a strange text file on my computer."
+    "But there's a strange text file on my computer."
     "MyLove.txt."
     "I click on it."
     textfile "See? I said it was not goodbye. ^_^"

@@ -112,21 +112,21 @@ label start:
     player "Shit."
     scene bg singlebedroom
     with fade
-    "After a few minutes of pulling and plugging various cables, the PC still won’t turn on."
+    "After a few minutes of pulling and plugging various cables, the PC still won't turn on."
     player "Must be something wrong with the parts..."
     "I pick up some tools and start to remove the case."
 
     scene bg singlebedroom
     with pixellate
-    player "The fuck..?"
+    player "The fuck...?"
     narrator "As I shake off the electricity running up my arm, I can hear several voices in the room."
     uchl "Oh no, did we kill them?!"
     uh "Of course not. Look, they are fine."
-    ucas "If they ain’t, they’ll come to in like... a day or so."
+    ucas "If they ain't, they'll come to in like... a day or so."
     "Three faces are peering down at me."
     "One of them smiles at me."
     show chloe
-    uchl "Hey! Glad you’re okay, you scared us for a second!"
+    uchl "Hey! Glad you're okay, you scared us for a second!"
     show chloe at left with move
     show henry at right
     uh "Scared you, you mean."
@@ -154,7 +154,7 @@ label start:
     h "Correct."
     h "And you are aware of an issue with the Personal Computer, hence why we stand before you now."
     h "Perhaps you should get to know us, so you can find out which one of us is the part causing you such...issue."
-    player "So you’re like... my actual PC?"
+    player "So you're like... my actual PC?"
     ucas "Yep. In the flesh. Or... metal, I guess."
 
     menu:
@@ -166,24 +166,24 @@ label start:
             h "Splendid. Now then, let us continue with introductions."
             "Henry looks at the person next to him expectantly."
             ucas "Hm? Oh. Yeah."
-            cas "Name’s Casper. CPU, if you’re interested."
+            cas "Name's Casper. CPU, if you're interested."
             player "So the girl is...?"
             "A blur of blue bursts into the room."
 
             show henry at center with move
             show chloe at left
-            chl "Chloe!! I’m your coolant! Here ya go!"
+            chl "Chloe!! I'm your coolant! Here ya go!"
             "She hands me a glass of water, spilling some in her excitement to hand it to me."
-            player "Right. I’m-"
+            player "Right. I'm-"
             h "[player_name]. Yes, we know."
             h "We are your Personal Computer, remember?"
             player "Please just call it a PC..."
-            cas "He’s like physically allergic to that."
+            cas "He's like physically allergic to that."
             cas "Some kind of directory thing, he has a habit of it."
             show henry angry
             h "Can you fault me? All the files would be {i}horribly{/i} arranged if I used abbreviations."
             chl "Come on, Casper, stop teasing him."
-            chl "Let’s all go and sit down, yeah? We can have a proper chat."
+            chl "Let's all go and sit down, yeah? We can have a proper chat."
             "Chloe takes my hand and leads me out into the living room."
 
             scene bg lounge
@@ -208,7 +208,7 @@ label Bad_End_1:
     show henry upset at center with move
     show chloe upset at left
     uchl "Whoa, tension."
-    uchl "What’s going on?"
+    uchl "What's going on?"
     player "Get out of my house!"
     "The three exchange glances before quietly leaving the room, and hopefully, the building."
     hide henry

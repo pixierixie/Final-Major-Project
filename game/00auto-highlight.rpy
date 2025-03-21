@@ -120,8 +120,8 @@ init -10 python:
             if char_name not in sprite_focus:
                 sprite_focus[char_name] = False
             anim_length = 0.2       # How long (in seconds) the animation will last
-            bright_change = 0.08    # How much the brightness changes
-            sat_change = 0.2        # How much the saturation changes
+            bright_change = 0.1    # How much the brightness changes
+            sat_change = 0.5        # How much the saturation changes
             zoom_change = 0.0025    # How much the zoom changes
             # - y_change is mostly here because the Minotaur Hotel sprites were made to be kept level with
             #   the bottom of the screen. The zoom change causes them to rise slightly

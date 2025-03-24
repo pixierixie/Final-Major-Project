@@ -27,7 +27,7 @@ label Henry_Route:
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
-    "Henry and I start to list out every part, and I make notes based on Henry's descriptions."
+    "HYou and Henry start to list out every part, and you make notes based on Henry's descriptions."
     h "From my perspective, everyone has been behaving relatively well."
     h "That does not mean to say that somebody is not hiding something from you."
     player "Then why don't we take a break?"
@@ -37,20 +37,20 @@ label Henry_Route:
     h "Chloe is still in the kitchen, so I will go and get some refreshments from her."
     h "Sit tight."
     hide henry
-    "Henry exits the room, leaving me alone for the first time since this crazy shit started."
+    "Henry exits the room, leaving you alone for the first time since this crazy shit started."
     "But the peace is soon shattered by a shout."
     chl "[player_name]!!"
     show chloe at center
   
-    "She throws herself next to me on the sofa, shoving a can into my hands."
+    "She throws herself next to you on the sofa, shoving a can into your hands."
     chl "Henry said this was your favourite, so I grabbed one for ya!"
     show henry at right
     show chloe at left with move
-    "Henry comes back into the room, quietly settling down on my other side."
+    "Henry comes back into the room, quietly settling down on your other side."
     "He holds out a bag of crisps."
     h "Apologies for raiding your cupboards."
     h "Eat. You need your strength."
-    "He smiles, opening the bag and placing it on my lap."
+    "He smiles, opening the bag and placing it on your lap."
     chl "I'll go get Casper and we can have a picnic!"
     
     hide chloe
@@ -138,14 +138,14 @@ label Henry_Route:
                     h "I suppose I cannot blame you too much."
                     h "We are hardly in an ideal or usual situation."
                     "He goes silent."
-                    "I shouldn’t have said that."
+                    "You shouldn’t have said that."
                     
                 "I'm not sure.":
                     h "Just the... 'vibes' then?"
                     h "I am off putting to you."
                     h "Well, I do hope that changes in time."
                     "He smiles, but it’s empty."
-                    "I probably shouldn't have said that."
+                    "You probably shouldn't have said that."
             
         "Chloe":
             $ badpoint += +1
@@ -168,10 +168,10 @@ label Henry_Route:
             h "I see."
             h "Neither do I, if I am being honest."
             h "Shall we continue our investigation?"
-            "Henry goes right back to our notes, organising them like the files of my computer."
+            "Henry goes right back to your notes, organising them like the files of your computer."
                 
                 
-    "After some more consideration, we're back to square one again."
+    "After some more consideration, you're back to square one again."
     show henry
     h "[player_name], I must come clean."
     h "I have been distracted this entire time."
@@ -215,7 +215,7 @@ label Henry_Bad_End:
     h "Like I am just some USB you throw away when it snaps."
     h "You chose me."
     h "Nevermind, I will help you see."
-    "Before I can register anything else, a sharp shock pierces through my body."
+    "Before you can register anything else, a sharp shock pierces through your body."
     
     scene bg distortbedroom
     with fade
@@ -223,22 +223,22 @@ label Henry_Bad_End:
     play music "creepy.mp3"
     h "You are awake?"
     h "Good, I was beginning to worry."
-    "As I blink awake, my eyes drift over to Henry."
-    "He was looking at me with a sick expression, one of twisted evil."
+    "As you blink awake, your eyes drift over to Henry."
+    "He was looking at you with a sick expression, one of twisted evil."
     "In his hands were shattered parts and blood."
     h "Oh, these?"
     "Henry’s face twists into a smirk."
     h "They are not needed anymore."
     h "I took care of everything."
-    "I go to move my hands but find that I can't."
+    "You go to move your hands but find that you can't."
     player "Wh..."
-    "My tongue doesn't move how it should."
+    "Your tongue doesn't move how it should."
     "What the hell is going on?"
-    "Why can't I-"
+    "Why can't you-"
     h "Why can you not move?"
     h "Take it easy now. You have had a stressful day."
     h "How about you just relax and eat something, yes?"
-    "He cups my cheek with an unexpected gentleness."
+    "He cups your cheek with an unexpected gentleness."
     h "I made ramen."
     scene bg blank
     "{b}-Bad Ending - Do hard drives dream of electric [player_name]?-{/b}"
@@ -294,11 +294,11 @@ label Henry_Good_End:
     stop music
     scene bg distortlounge
     play music "vntrack09.mp3"
-    "Leaving me alone."
-    "I just met this guy, and I really like him."
+    "Leaving you alone."
+    "IYou just met this guy, and you really like him."
     "But he's leaving."
-    "{size=-2}I won't see him again.{w=0.3}{nw}{/size}"
-    "{size=-3}I'll be all alone again.{w=0.2}{nw}{/size}"
+    "{size=-2}You won't see him again.{w=0.3}{nw}{/size}"
+    "{size=-3}You'll be all alone again.{w=0.2}{nw}{/size}"
     "{size=-4}I can't be alone again...{w=0.1}{nw}{/size}"
     "{sc}I CAN'T BE ALONE AGAIN{w=0.2}{nw}{/sc}"
 
@@ -306,13 +306,13 @@ label Henry_Good_End:
     play music "vntrack21.mp3"
     show henry
     h "[player_name]?"
-    "Henry rushes to my side, enveloping me into a hug."
+    "Henry rushes to your side, enveloping you into a hug."
     h "Hush now, you are safe. I am right here."
     player "But you won't be..."
     h "I always will be a part of your Personal Computer."
     h "This is not goodbye."
     h "Let us go back to your room so we can fix this mess."
-    "Henry pulls me up, supporting my arm as he leads me to my room."
+    "Henry pulls you up, supporting your arm as he leads you to your room."
 
     scene bg singlebedroom
     with blinds
@@ -320,21 +320,21 @@ label Henry_Good_End:
     h "There we are, [player_name]. Nice and steady."
     hide henry
     "The other two are already here."
-    "Chloe rushes over to hug me herself."
+    "Chloe rushes over to hug you herself."
 
     scene bg singlebedroom
     with hpunch
     show chloe
     chl "Please don't cry!"
     chl "It'll be okay!"
-    "She squeezes me a bit too tight."
+    "She squeezes you a bit too tight."
     show chloe at left with move
     show casper at right
     cas "Chloe, you're strangling the poor bastard."
     chl "Oh! Sorry!"
     hide casper
     show chloe at center with move
-    "She releases me and steps back a bit."
+    "She releases you and steps back a bit."
     hide chloe
     player "I'm gonna miss you guys."
     show henry at center
@@ -342,28 +342,28 @@ label Henry_Good_End:
     h "Close your eyes."
     h "When you open them again, fix your Personal Computer."
     h "Simple, yes? Just count to three, you can do that."
-    "He holds my hands as I close my eyes."
+    "He holds your hands as you close your eyes."
 
     scene bg blank
     with fade
     player "One..."
     "His hands get colder."
     player "Two..."
-    "His hands slip from mine."
+    "His hands slip from yours."
     player "Three..."
 
     scene bg singlebedroom
     with fade
-    "I open my eyes and on the floor are all the parts of my PC."
+    "You open my eyes and on the floor are all the parts of your PC."
     "They're really gone."
 
     scene bg singlebedroom
     with fade
-    "I finally turn my PC back on."
+    "You finally turn your PC back on."
     "It boots perfectly."
-    "But there's a strange text file on my computer."
+    "But there's a strange text file on your computer."
     "MyLove.txt."
-    "I click on it."
+    "You click on it."
     textfile "See? I said it was not goodbye. ^_^"
 
     scene bg blank

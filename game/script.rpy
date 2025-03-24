@@ -102,40 +102,40 @@ label start:
     player "No raise in five years, yet double the responsibility since Kate quit."
     player "And all I have to show for it is shitty ramen and student loans."
     player "And apparently talking to myself like a crazy person."
-    "I enter the bedroom, peeling off the layers of my work clothes and changing into something much more comfortable."
+    "You enter the bedroom, peeling off the layers of your work clothes and changing into something much more comfortable."
     
     scene bg singlebedroom
     with blinds
-    "I turn on my PC, ready to unwind with the new game that just came out."
-    "I press the power button and..."
+    "You turn on myour PC, ready to unwind with the new game that just came out."
+    "You press the power button and..."
     "Nothing."
     player "Shit."
     scene bg singlebedroom
     with fade
     "After a few minutes of pulling and plugging various cables, the PC still won't turn on."
     player "Must be something wrong with the parts..."
-    "I pick up some tools and start to remove the case."
+    "You pick up some tools and start to remove the case."
 
     scene bg singlebedroom
     with pixellate
     player "The fuck...?"
-    narrator "As I shake off the electricity running up my arm, I can hear several voices in the room."
+    narrator "As you shake off the electricity running up your arm, you can hear several voices in the room."
     uchl "Oh no, did we kill them?!"
     uh "Of course not. Look, they are fine."
     ucas "If they ain't, they'll come to in like... a day or so."
-    "Three faces are peering down at me."
-    "One of them smiles at me."
+    "Three faces are peering down at you."
+    "One of them smiles at you."
     show chloe
     uchl "Hey! Glad you're okay, you scared us for a second!"
     show chloe at left with move
     show henry at right
     uh "Scared you, you mean."
     uchl "You were worried too!"
-    narrator "The silver haired man huffs, but his eyes remain on me."
+    narrator "The silver haired man huffs, but his eyes remain on you."
     show henry at center with move
     show casper at right
     narrator "The quiet one spares a glance, before looking away."
-    "The girl leans close and studies my face."
+    "The girl leans close and studies your face."
     uchl "A little pale... You should drink something!"
     hide chloe
     show henry at left with move
@@ -143,7 +143,7 @@ label start:
     "The silver haired man sighs and pinches the bridge of his nose."
     uh "Apologies for her. She has a tendency to be a bit... scattered."
     uh "Par for the course with coolant, I am afraid."
-    "He must notice my confused expression, because his own changes."
+    "He must notice your confused expression, because his own changes."
     show henry blush
     #This line is smaller, grey and autoskips
     uh "{size=-2}{color=#6d6d6d}You are cute when you are confused...{w=0.3}{nw}{/size}{/color}"
@@ -173,7 +173,7 @@ label start:
             show henry at center with move
             show chloe at left
             chl "Chloe!! I'm your coolant! Here ya go!"
-            "She hands me a glass of water, spilling some in her excitement to hand it to me."
+            "She hands you a glass of water, spilling some in her excitement to hand it to you."
             player "Right. I'm-"
             h "[player_name]. Yes, we know."
             h "We are your Personal Computer, remember?"
@@ -184,14 +184,31 @@ label start:
             h "Can you fault me? All the files would be {i}horribly{/i} arranged if I used abbreviations."
             chl "Come on, Casper, stop teasing him."
             chl "Let's all go and sit down, yeah? We can have a proper chat."
-            "Chloe takes my hand and leads me out into the living room."
+            "Chloe takes your hand and leads you out into the living room."
 
             scene bg lounge
             with blinds
-            "Currently there is only one route, the end of the prologue is unfinished."
-            "Select your route."
+            "You sit down on the sofa, trying to wrap your head around what was happening."
+            show chloe upset
+            chl "You look overwhelmed still..."
+            show chloe at left with move
+            show henry at right
+            h "I think it is best that you collect yourself first."
+            h "We will be around when you wish to speak with us."
+            chl "I'll go hang out in the kitchen, I'm sure there's something I can do in there."
+            hide chloe
+            show henry at center with move
+            "Chloe is already bouncing off again."
+            show henry at left with move
+            show casper at right
+            cas "I guess I'll just go chill in like the dining room?"
+            "Casper languidly makes their way out, yawning and stretching as they go."
+            hide casper
+            show henry at center with move
+            h "I shall remain here."
+            "Where would you like to go?"
             menu:
-                "Henry Route":
+                "Living Room - Henry":
                     jump Henry_Route
                     stop music
             return
@@ -203,7 +220,7 @@ label Bad_End_1:
     h "Oh. You do not even want to try?"
     player "No, I don’t know who you people are."
     player "Get out of my house. Right now."
-    "The two just stare at me in shock."
+    "The two just stare at you in shock."
     "The girl bounces in, glass of water in hand."
     show henry upset at center with move
     show chloe upset at left
@@ -214,7 +231,7 @@ label Bad_End_1:
     hide henry
     hide casper
     hide chloe
-    "After a few minutes of trying to process what the fuck just happened, I go back to repairing my PC."
+    "After a few minutes of trying to process what the fuck just happened, you go back to repairing your PC."
     player "Where the hell did my CPU go...?"
     scene bg blank
     "{b}-Bad Ending: What, it just grew legs and walked away?-{/b}"

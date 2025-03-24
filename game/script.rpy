@@ -90,9 +90,20 @@ label start:
     if player_name == "":
         $ player_name="Player"
 
-    "Nice to meet you, [player_name]!"
+    "You have put: [player_name]."
+    "Is this correct?"
+    menu:
+        "Yes":
+            "Nice to meet you, [player_name]!"
+            jump prologue
+        "No":
+            jump start
 
+
+
+label prologue:
     scene bg entrance
+
     with fade
     #Play audio
     play music "vntrack19.mp3"
@@ -218,7 +229,7 @@ label Bad_End_1:
     show henry upset at left
     show casper angry at right
     h "Oh. You do not even want to try?"
-    player "No, I don’t know who you people are."
+    player "No, I don't know who you people are."
     player "Get out of my house. Right now."
     "The two just stare at you in shock."
     "The girl bounces in, glass of water in hand."

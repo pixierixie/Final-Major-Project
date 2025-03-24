@@ -204,7 +204,6 @@ label Henry_Bad_End:
     scene bg blank
     stop music
     h "{color=#b00000}{b}You idiot.{/color}{/b}"
-    
     scene bg lounge
     show henry crazy
     h "Is it Chloe?"
@@ -213,7 +212,7 @@ label Henry_Bad_End:
     h "You have been nothing but cruel, [player_name]."
     h "Toying with me like this."
     h "Like I am just some USB you throw away when it snaps."
-    h "You chose me."
+    h "{sc=[1.5]}You chose me.{/sc}"
     h "Nevermind, I will help you see."
     "Before you can register anything else, a sharp shock pierces through your body."
     
@@ -227,7 +226,7 @@ label Henry_Bad_End:
     "He was looking at you with a sick expression, one of twisted evil."
     "In his hands were shattered parts and blood."
     h "Oh, these?"
-    "Henry’s face twists into a smirk."
+    "Henry's face twists into a smirk."
     h "They are not needed anymore."
     h "I took care of everything."
     "You go to move your hands but find that you can't."

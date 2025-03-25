@@ -1,38 +1,42 @@
-2025-03-25 13:31:08 UTC
+2025-03-25 14:35:51 UTC
 Windows-10-10.0.10586
 Ren'Py 8.3.4.24120703
 
-Early init took 2.13s
-Loading error handling took 0.39s
-Loading script took 3.29s
-Loading save slot metadata took 0.69s
+Early init took 17.02s
+Loading error handling took 9.25s
+Loading script took 64.90s
+Loading save slot metadata took 6.16s
 Loading persistent took 0.00s
- - Init at renpy/common/00updater.rpy:23 took 0.25859 s.
- - Init at game/gui.rpy:11 took 0.30346 s.
-Running init code took 1.18s
-Loading analysis data took 0.23s
+ - Init at renpy/common/00build.rpy:25 took 0.31902 s.
+ - Init at renpy/common/00console.rpy:125 took 1.70028 s.
+ - Init at renpy/common/00updater.rpy:23 took 6.12649 s.
+ - Init at renpy/common/00compat.rpy:352 took 0.38262 s.
+ - Init at game/gui.rpy:11 took 2.28573 s.
+ - Init at renpy/common/00library.rpy:450 took 1.81596 s.
+Running init code took 12.96s
+Loading analysis data took 0.53s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.46s
+Reloading save slot metadata took 8.49s
 Index archives took 0.00s
-Dump and make backups took 1.24s
+Dump and make backups took 7.94s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.61s
+Initial gc took 0.70s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+Creating interface object took 0.23s
 Cleaning stores took 0.00s
-Init translation took 0.66s
-Build styles took 0.11s
-Load screen analysis took 0.55s
+Init translation took 0.49s
+Build styles took 0.17s
+Load screen analysis took 0.43s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 1.15s
+Prepare screens took 1.64s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
-Interface start took 2.51s
+Interface start took 1.87s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -237,43 +241,80 @@ Vendor: "b'Google Inc.'"
 Renderer: b'ANGLE (Microsoft Basic Render Driver Direct3D11 vs_5_0 ps_5_0)'
 Version: b'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
 Display Info: None
-Screen sizes: virtual=(1280, 720) physical=(1184, 666) drawable=(1184, 666)
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
+Maximum texture size: 4096xResetting cache.
+Early init took 432.21s
+Loading error handling took 0.16s
+Loading script took 3.06s
+Loading save slot metadata took 0.19s
+Loading persistent took 0.00s
+Running init code took 0.25s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.16s
+Index archives took 0.00s
+Dump and make backups took 0.49s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.24s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.23s
+Build styles took 0.02s
+Load screen analysis took 0.15s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.40s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.01s
+Interface start took 0.42s
+
+Initializing angle2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Google Inc.'"
+Renderer: b'ANGLE (Microsoft Basic Render Driver Direct3D11 vs_5_0 ps_5_0)'
+Version: b'OpenGL ES 3.0.0 (ANGLE 2.1.0.a4b21cf26074)'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 494.49s
-Loading error handling took 2.03s
-Loading script took 35.94s
-Loading save slot metadata took 2.34s
+Early init took 665.76s
+Loading error handling took 0.18s
+Loading script took 1.09s
+Loading save slot metadata took 0.19s
 Loading persistent took 0.00s
- - Init at game/gui.rpy:11 took 2.49157 s.
- - Init at renpy/common/00library.rpy:450 took 0.82084 s.
-Running init code took 3.64s
-Loading analysis data took 0.24s
+Running init code took 0.28s
+Loading analysis data took 0.10s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 1.07s
+Reloading save slot metadata took 0.16s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\rixre\\AppData\\Roaming/RenPy/backups\\Final-Major-Project':
-Dump and make backups took 1.43s
+Dump and make backups took 0.51s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.40s
+Initial gc took 0.27s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.36s
-Build styles took 0.04s
-Load screen analysis took 0.20s
-Analyze screens took 0.07s
-Save screen analysis took 0.36s
-Prepare screens took 0.62s
+Init translation took 0.22s
+Build styles took 0.02s
+Load screen analysis took 0.16s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.40s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.27s
-Running _start took 0.01s
-Interface start took 1.05s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.41s
 
 Initializing angle2 renderer:
 primary display bounds: (0, 0, 1366, 768)

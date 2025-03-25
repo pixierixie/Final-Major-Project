@@ -27,7 +27,7 @@ label Henry_Route:
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
-    "HYou and Henry start to list out every part, and you make notes based on Henry's descriptions."
+    "You and Henry start to list out every part, and you make notes based on Henry's descriptions."
     h "From my perspective, everyone has been behaving relatively well."
     h "That does not mean to say that somebody is not hiding something from you."
     player "Then why don't we take a break?"

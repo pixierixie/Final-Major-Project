@@ -117,7 +117,7 @@ label prologue:
     
     scene bg singlebedroom
     with blinds
-    "You turn on myour PC, ready to unwind with the new game that just came out."
+    "You turn on your PC, ready to unwind with the new game that just came out."
     "You press the power button and..."
     "Nothing."
     player "Shit."

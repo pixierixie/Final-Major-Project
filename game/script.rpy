@@ -96,8 +96,10 @@ label start:
         "Yes":
             "Nice to meet you, [player_name]!"
             jump prologue
+            #Moves onto the prologue
         "No":
             jump start
+            #Loops the question
 
 
 

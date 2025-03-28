@@ -171,7 +171,7 @@ label prologue:
     menu:
         "Get out of my house!":
             jump Bad_End_1
-            
+            #Jumps to the Prologue Bad End
 
         "I guess you can stay...":
             h "Splendid. Now then, let us continue with introductions."
@@ -221,6 +221,7 @@ label prologue:
             menu:
                 "Living Room - Henry":
                     jump Henry_Route
+                    #This is is a seperate script called henryscript.rpy
                     stop music
             return
 

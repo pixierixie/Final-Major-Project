@@ -1,20 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\Final-Major-Project\\game\\saves\\navigation.json'
+While running game code:
+  File "game/script.rpy", line 115, in script
+    $ renpy.notify(henry.png)
+  File "game/script.rpy", line 115, in <module>
+    $ renpy.notify(henry.png)
+NameError: name 'henry' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
-    renpy.main.main()
-  File "D:\renpy-8.3.4-sdk\renpy\main.py", line 599, in main
-    renpy.dump.dump(False)
-  File "D:\renpy-8.3.4-sdk\renpy\dump.py", line 260, in dump
-    os.unlink(filename)
-FileNotFoundError: [WinError 2] The system cannot find the file specified: 'D:\\Final-Major-Project\\game\\saves\\navigation.json'
+  File "game/script.rpy", line 115, in script
+    $ renpy.notify(henry.png)
+  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 115, in <module>
+    $ renpy.notify(henry.png)
+NameError: name 'henry' is not defined
 
 Windows-10-10.0.10586 AMD64
 Ren'Py 8.3.4.24120703
-Reboot 0.6
-Tue Mar 25 14:34:22 2025
+Reboot 0.7
+Tue Apr  1 11:59:26 2025

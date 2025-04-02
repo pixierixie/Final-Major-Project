@@ -19,11 +19,13 @@ label Henry_Route:
     menu:
         "I don't need your help.":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             h "Oh. It is no trouble, [player_name]."
             h "I insist on helping."
             
         "Thanks, I want to fix this too.":
             $ goodpoint += +1
+            $ renpy.notify("+1 relationship")
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
 
@@ -80,6 +82,7 @@ label Henry_Route:
     menu:
         "Ask about Henry":
             $ goodpoint += +1
+            $ renpy.notify("+1 relationship")
             show henry blush
             h "You wish to learn about me?"
             h "I would be delighted to share things with you, [player_name]."
@@ -93,6 +96,7 @@ label Henry_Route:
         
         "Ask about Chloe":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             hide henry
             show chloe blush at center
             chl "Me?! Sure!"
@@ -103,6 +107,7 @@ label Henry_Route:
         
         "Ask about Casper":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             hide henry
             show casper at center
             cas "Hm?"
@@ -128,6 +133,7 @@ label Henry_Route:
     menu:
         "Henry":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             show henry upset
             h "..."
             h "Me?"
@@ -149,6 +155,7 @@ label Henry_Route:
             
         "Chloe":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             show henry upset
             h "Chloe? How odd."
             h "I suppose her hyperactivity may be a tad much for you."
@@ -157,6 +164,7 @@ label Henry_Route:
             
         "Casper":
             $ badpoint += +1
+            $ renpy.notify("-1 relationship")
             show henry upset
             h "Casper?"
             h "They are rather quiet, but that is not out of the ordinary."
@@ -165,6 +173,7 @@ label Henry_Route:
                 
         "I don't know.":
             $ goodpoint += +1
+            $ renpy.notify("+1 relationship")
             h "I see."
             h "Neither do I, if I am being honest."
             h "Shall we continue our investigation?"

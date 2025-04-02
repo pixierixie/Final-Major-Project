@@ -112,7 +112,6 @@ label prologue:
 
     # Start of dialogue
     player "Ugh, I seriously need to get a new job."
-    $ renpy.notify("Test")
     player "No raise in five years, yet double the responsibility since Kate quit."
     player "And all I have to show for it is shitty ramen and student loans."
     player "And apparently talking to myself like a crazy person."

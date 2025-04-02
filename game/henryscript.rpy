@@ -19,12 +19,14 @@ label Henry_Route:
     menu:
         "I don't need your help.":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             h "Oh. It is no trouble, [player_name]."
             h "I insist on helping."
             
         "Thanks, I want to fix this too.":
             $ goodpoint += +1
+            play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship")
             h "Perfect. Then perhaps we can troubleshoot together?"
             h "I happen to be quite knowledgeable about everyone."
@@ -82,6 +84,7 @@ label Henry_Route:
     menu:
         "Ask about Henry":
             $ goodpoint += +1
+            play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship")
             show henry blush
             h "You wish to learn about me?"
@@ -96,6 +99,7 @@ label Henry_Route:
         
         "Ask about Chloe":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             hide henry
             show chloe blush at center
@@ -107,6 +111,7 @@ label Henry_Route:
         
         "Ask about Casper":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             hide henry
             show casper at center
@@ -133,6 +138,7 @@ label Henry_Route:
     menu:
         "Henry":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show henry upset
             h "..."
@@ -155,6 +161,7 @@ label Henry_Route:
             
         "Chloe":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show henry upset
             h "Chloe? How odd."
@@ -164,6 +171,7 @@ label Henry_Route:
             
         "Casper":
             $ badpoint += +1
+            play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show henry upset
             h "Casper?"
@@ -173,6 +181,7 @@ label Henry_Route:
                 
         "I don't know.":
             $ goodpoint += +1
+            play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship")
             h "I see."
             h "Neither do I, if I am being honest."

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 22: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    narrator = Character("", callback = name_callback, cb_name = None)
-    ^
+File "game/chloescript.rpy", line 109: choice menuitem expects a non-empty block.
+    "I have nothing to ask.":
+                             ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Mar 14 16:55:13 2025
+Wed Apr  2 16:22:19 2025

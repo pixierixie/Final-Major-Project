@@ -1,26 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 115, in script
-    $ renpy.notify(henry.png)
-  File "game/script.rpy", line 115, in <module>
-    $ renpy.notify(henry.png)
-NameError: name 'henry' is not defined
+While parsing C:\Users\pixie\Documents\GitHub\Final Major Project\game/chloescript.rpy.
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 5074: invalid start byte
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 115, in script
-    $ renpy.notify(henry.png)
-  File "D:\renpy-8.3.4-sdk\renpy\ast.py", line 827, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "D:\renpy-8.3.4-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 115, in <module>
-    $ renpy.notify(henry.png)
-NameError: name 'henry' is not defined
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\main.py", line 470, in main
+    renpy.game.script.load_script() # sets renpy.game.script.
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\script.py", line 359, in load_script
+    self.load_appropriate_file(".rpyc", [ "_ren.py", ".rpy" ], dir, fn, initcode)
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\script.py", line 941, in load_appropriate_file
+    data, stmts = self.load_file(dir, fn + source)
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\script.py", line 721, in load_file
+    stmts = renpy.parser.parse(fullfn)
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\parser.py", line 1685, in parse
+    lines = list_logical_lines(fn, filedata, linenumber)
+  File "C:\Users\pixie\Downloads\renpy-8.3.4-sdk\renpy\lexer.py", line 302, in list_logical_lines
+    data = f.read().decode("utf-8", "python_strict")
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x92 in position 5074: invalid start byte
 
-Windows-10-10.0.10586 AMD64
+Windows-10-10.0.26100 AMD64
 Ren'Py 8.3.4.24120703
-Reboot 0.7
-Tue Apr  1 11:59:26 2025
+ 
+Wed Apr  2 16:16:57 2025

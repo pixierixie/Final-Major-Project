@@ -225,6 +225,10 @@ label prologue:
                     jump Henry_Route
                     #This is is a seperate script called henryscript.rpy
                     stop music
+                "Kitchen - Chloe":
+                    jump Chloe_Route
+                    #Seperate script called chloescript.rpy
+                    stop music
             return
 
 label Bad_End_1:

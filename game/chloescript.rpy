@@ -4,12 +4,11 @@ label Chloe_Route:
     $ badpoint = 0
 
     scene bg lounge
-    play music "vntrack21.mp3"
-
     "You decide to head to the kitchen to spend time with Chloe."
 
     scene bg kitchen
     with blinds
+    play music ["Lava Lamp.mp3", "Try New Things.mp3", "Golden Pig.mp3"]
 
     show chloe at center
     chl "Oh hey! You wanna hang out with me?"
@@ -45,7 +44,7 @@ label Chloe_Route:
     "You and Chloe get everything arranged on the counter."
     "Chloe starts to measure the ingredients out, making a bit of a mess as she does so."
     chl "Hey, why don't we go off book?"
-    chl "We could add sprinkles to make it one of those colorful cakes!"
+    chl "We could add sprinkles to make it one of those colourful cakes!"
     player "Funfetti?"
     chl "Yeah, that!"
     menu:
@@ -144,6 +143,7 @@ label Chloe_Route_Continue:
 label Chloe_Bad_End:
     scene bg kitchen
     show chloe at center
+    play music "Birds At The Window.mp3"
     chl "BAD END"
     return
 
@@ -151,6 +151,7 @@ label Chloe_Bad_End:
 label Chloe_Good_End:
     scene bg kitchen
     show chloe at center
+    play music "Lounging Lads.mp3"
     chl "GOOD END"
     return
 

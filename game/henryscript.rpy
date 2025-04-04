@@ -375,7 +375,7 @@ label Henry_Good_End:
 
     scene bg singlebedroom
     with fade
-    "You open my eyes and on the floor are all the parts of your PC."
+    "You open your eyes and on the floor are all the parts of your PC."
     "They're really gone."
 
     scene bg singlebedroom

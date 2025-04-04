@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.7"
+define config.version = "0.8"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -62,7 +62,7 @@ define config.has_voice = True
 ## the player is at the main menu. This file will continue playing into the
 ## game, until it is stopped or another file is played.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "Auto save.mp3"
 
 
 ## Transitions #################################################################

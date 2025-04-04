@@ -8,7 +8,7 @@ label Henry_Route:
     
     scene bg lounge
     show henry at center
-    play music "vntrack21.mp3"
+    play music "Sofa Crease.mp3"
 
     h "Ah, me? A wise choice."
     h "Then perhaps I should explain a bit more about us and our purpose here."
@@ -45,6 +45,7 @@ label Henry_Route:
     "But the peace is soon shattered by a shout."
     chl "[player_name]!!"
     show chloe at center
+    play music "Lazy Saturday.mp3"
   
     "She throws herself next to you on the sofa, shoving a can into your hands."
     chl "Henry said this was your favourite, so I grabbed one for ya!"
@@ -126,6 +127,7 @@ label Henry_Route:
     hide henry
     hide casper
     hide chloe
+    play music "Sofa Crease.mp3"
     "The atmosphere settles into light hearted banter and casual conversation."
     "After a while, all the snacks and drinks are finished."
     show henry at center
@@ -224,6 +226,7 @@ label Henry_Bad_End:
     h "{color=#b00000}{b}You idiot.{/color}{/b}"
     scene bg lounge
     show henry crazy
+    play music "Pumpkin Spice Slaughter.mp3"
     h "Is it Chloe?"
     h "Has she stolen you from me?"
     h "Or Casper... that lazy bastard."
@@ -265,6 +268,7 @@ label Henry_Bad_End:
 label Henry_Good_End:
     scene bg lounge
     show henry blush at center
+    play music "Afternoon Nap.mp3"
     player "Feelings?"
     player "Like real, actual feelings?"
     h "As real as I am."
@@ -310,7 +314,7 @@ label Henry_Good_End:
     "Henry leaves first."
     stop music
     scene bg distortlounge
-    play music "vntrack09.mp3"
+    play music "Pumpkin Spice Slaughter.mp3"
     "Leaving you alone."
     "IYou just met this guy, and you really like him."
     "But he's leaving."
@@ -320,7 +324,7 @@ label Henry_Good_End:
     "{sc}I CAN'T BE ALONE AGAIN{w=0.2}{nw}{/sc}"
 
     scene bg lounge
-    play music "vntrack21.mp3"
+    play music "Afternoon Nap.mp3"
     show henry
     h "[player_name]?"
     "Henry rushes to your side, enveloping you into a hug."

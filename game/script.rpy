@@ -108,7 +108,7 @@ label prologue:
 
     with fade
     #Play audio
-    play music "vntrack19.mp3"
+    play music ["Box Boys.mp3", "Plant Propogation.mp3", "Sunlight On The Screen.mp3"]
 
     # Start of dialogue
     player "Ugh, I seriously need to get a new job."
@@ -131,6 +131,8 @@ label prologue:
 
     scene bg singlebedroom
     with pixellate
+    play music "Virtual Fields.mp3"
+    queue music ["Box Boys.mp3", "Plant Propogation.mp3", "Sunlight On The Screen.mp3"]
     player "The fuck...?"
     narrator "As you shake off the electricity running up your arm, you can hear several voices in the room."
     uchl "Oh no, did we kill them?!"
@@ -235,6 +237,7 @@ label Bad_End_1:
     scene bg singlebedroom
     show henry upset at left
     show casper angry at right
+    play music "Pixels In The Wind.mp3"
     h "Oh. You do not even want to try?"
     player "No, I don't know who you people are."
     player "Get out of my house. Right now."

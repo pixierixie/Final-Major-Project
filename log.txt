@@ -1,39 +1,39 @@
-2025-04-08 12:02:47 UTC
+2025-04-08 12:30:08 UTC
 Windows-10-10.0.10586
 Ren'Py 8.3.4.24120703
 
-Early init took 0.97s
-Loading error handling took 1.68s
-Loading script took 8.80s
-Loading save slot metadata took 0.92s
+Early init took 0.91s
+Loading error handling took 1.64s
+Loading script took 9.18s
+Loading save slot metadata took 0.94s
 Loading persistent took 0.00s
- - Init at renpy/common/00updater.rpy:23 took 0.38390 s.
- - Init at game/gui.rpy:11 took 0.28539 s.
- - Init at renpy/common/00library.rpy:450 took 0.25995 s.
-Running init code took 1.20s
-Loading analysis data took 0.13s
+ - Init at renpy/common/00updater.rpy:23 took 0.39314 s.
+ - Init at game/gui.rpy:11 took 0.37061 s.
+ - Init at renpy/common/00library.rpy:450 took 0.28196 s.
+Running init code took 1.38s
+Loading analysis data took 0.14s
 Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.54s
+Reloading save slot metadata took 0.42s
 Index archives took 0.00s
-Dump and make backups took 0.46s
+Dump and make backups took 0.47s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.23s
+Initial gc took 0.19s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.01s
 Cleaning stores took 0.00s
-Init translation took 0.19s
+Init translation took 0.21s
 Build styles took 0.02s
-Load screen analysis took 0.19s
+Load screen analysis took 0.20s
 Analyze screens took 0.01s
 Save screen analysis took 0.00s
-Prepare screens took 0.37s
+Prepare screens took 0.42s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.45s
+Running _start took 0.01s
+Interface start took 0.60s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -48,9 +48,9 @@ Maximum texture size: 4096x4096
 Screen sizes: virtual=(1280, 720) physical=(1366, 705) drawable=(1366, 705)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.02s
-Load screen analysis took 0.17s
+Init translation took 0.01s
+Build styles took 0.03s
+Load screen analysis took 0.20s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
-Running _start took 0.00s
+Running _start took 0.02s

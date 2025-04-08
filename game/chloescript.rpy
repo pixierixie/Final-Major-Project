@@ -1,7 +1,7 @@
 #Chloe's route script file
 label Chloe_Route:
-    $ goodpoint = 0
-    $ badpoint = 0
+    $ chlgoodpoint = 0
+    $ chlbadpoint = 0
 
     scene bg lounge
     "You decide to head to the kitchen to spend time with Chloe."
@@ -18,7 +18,7 @@ label Chloe_Route:
     chl "I've always wanted to make something!"
     menu:
         "Are you sure you know what you're doing?":
-            $ badpoint += +1
+            $ chlbadpoint += +1
             play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show chloe upset
@@ -26,7 +26,7 @@ label Chloe_Route:
             chl "...Right?"
 
         "Why don't we do it together?":
-            $ goodpoint += +1
+            $ chlgoodpoint += +1
             play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship") 
             show chloe blush
@@ -49,7 +49,7 @@ label Chloe_Route:
     chl "Yeah, that!"
     menu:
         "Let's follow the recipe.":
-            $ badpoint += +1
+            $ chlbadpoint += +1
             play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show chloe upset
@@ -58,7 +58,7 @@ label Chloe_Route:
             "You and Chloe mix the batter together exactly as the recipe states."
 
         "That's a great idea!":
-            $ goodpoint += +1
+            $ chlgoodpoint += +1
             play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship")  
             show chloe blush
@@ -118,7 +118,7 @@ label Chloe_Route_Continue:
 
     menu:
         "Use Chloe's suggestions.":
-            $ goodpoint += +1
+            $ chlgoodpoint += +1
             play sound "UI Simple Confirm.mp3"
             $ renpy.notify("+1 relationship") 
             "You grab a piping bag and fill it with bright pink icing."
@@ -126,7 +126,7 @@ label Chloe_Route_Continue:
             "The cake is a mess of colour, but it s delicious."
 
         "Ignore Chloe's suggestions.":
-            $ badpoint += +1
+            $ chlbadpoint += +1
             play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")
             show chloe upset
@@ -135,9 +135,9 @@ label Chloe_Route_Continue:
             "The cake is perfect, albeit bland looking."
 
     #Decides if the player is on the good or bad ending route
-    if badpoint >= 2:
+    if chlbadpoint >= 2:
         jump Chloe_Bad_End
-    if goodpoint >= 2:
+    if chlgoodpoint >= 2:
         jump Chloe_Good_End
 
 label Chloe_Bad_End:

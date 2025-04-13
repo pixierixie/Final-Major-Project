@@ -316,7 +316,7 @@ label Henry_Good_End:
     scene bg distortlounge
     play music "Pumpkin Spice Slaughter.mp3"
     "Leaving you alone."
-    "IYou just met this guy, and you really like him."
+    "You just met this guy, and you really like him."
     "But he's leaving."
     "{size=-2}You won't see him again.{w=0.3}{nw}{/size}"
     "{size=-3}You'll be all alone again.{w=0.2}{nw}{/size}"

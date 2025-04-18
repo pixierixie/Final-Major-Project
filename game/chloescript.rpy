@@ -1,4 +1,4 @@
-#Chloe's route script file
+﻿#Chloe's route script file
 label Chloe_Route:
     $ chlgoodpoint = 0
     $ chlbadpoint = 0
@@ -142,9 +142,73 @@ label Chloe_Route_Continue:
 
 label Chloe_Bad_End:
     scene bg kitchen
-    show chloe at center
     play music "Birds At The Window.mp3"
-    chl "BAD END"
+
+    "Despite your best efforts, the cake is less than stellar."
+    show chloe upset at center
+    chl "This looks... edible."
+    chl "Want a slice?"
+    "Chloe hesitantly cuts up the cake and places the slices onto plates."
+    "Chloe hands a plate to you and picks at her own."
+    "She doesn't seem very keen."
+    show chloe drain
+    chl "Let's go and see if the others want any?"
+    "Chloe leaves with her hands full of plates."
+    "You follow her out to the dining room."
+
+    scene bg dining
+    with blinds
+    "Casper is sat at the table, chewing some gum as they watch you and Chloe put the plates down."
+    show casper gum at center
+    cas "Hm? You made... What did you make?"
+    show casper gum at right with move
+    show chloe drain at left
+    chl "Cake. Want some?"
+    "Casper looks at the soulless sponge and hesitates."
+    show casper
+    cas "I guess...? Lemme grab Henry and we can eat together."
+    "Casper lazily stands up and exits the room."
+    hide casper
+    show chloe drain at center with move
+    "Leaving just you and Chloe."
+    chl "..."
+    player "..."
+    show chloe glitch
+    chl "...Sorry."
+    chl "Didn't mean for this to turn into a mess..."
+    "Chloe picks at her slice, eating small bites at a time."
+    "The air is so awkward."
+    "You can't think of anything to say, so you pick at your own slice."
+    "Casper returns with Henry after a while and the two also sit down."
+    "The silence is suffocating."
+    hide chloe
+
+    scene bg dining
+    with fade
+    show chloe glitch at center
+    show henry at left
+    show casper at right
+    "Eventually, Henry speaks up."
+    h "I have fixed the issue, so you may now fix your Personal Computer, [player_name]."
+    "Chloe is the first to leave."
+    hide chloe
+    "You all file out of the room one after the other."
+    hide casper
+    hide henry
+    "You're the last one to leave."
+
+    scene bg singlebedroom
+    with blinds
+    "By the time you're back in your room, they've already turned back into a pile of parts."
+
+    scene bg singlebedroom
+    with fade
+    "You finally reboot your PC and open up the game you wanted to play earlier."
+    "Your PC overheats no matter what you try to do."
+    "You decide it's best to replace the entire coolant system."
+    "Chloe was useless after all."
+    "{b}-Bad Ending: Soulless Sponge-{/b}"
+
     return
 
 

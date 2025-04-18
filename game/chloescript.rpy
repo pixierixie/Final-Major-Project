@@ -208,7 +208,6 @@ label Chloe_Bad_End:
     "You decide it's best to replace the entire coolant system."
     "Chloe was useless after all."
     "{b}-Bad Ending: Soulless Sponge-{/b}"
-
     return
 
 
@@ -216,9 +215,88 @@ label Chloe_Good_End:
     scene bg kitchen
     show chloe at center
     play music "Lounging Lads.mp3"
-    chl "GOOD END"
+    "Somehow, the cake ends up beautiful."
+    chl "Woah, this looks amazing!"
+    chl "We should share it with the others, I'm sure they'd love some!"
+    "Chloe is already cutting slices and placing them onto plates."
+    "You help out and grab some plates, bringing them into the dining room."
+
+    scene bg dining
+    "Casper is sat at the table, chewing some gum as they watch you and Chloe put the plates down."
+    show chloe at left
+    show casper gum at right
+    cas "Cake? Sweet."
+    "Casper drags a plate closer to them."
+    chl "I'll go and get Henry then, since you're gonna stuff your face."
+    "With a teasing smile, Chloe rushes off to find Henry."
+    hide chloe
+    show casper at center with move
+    cas "You know she did this because she was worried, right?"
+    player "Huh? Worried about what?"
+    cas "Being replaced. Don't get me wrong, she is this nice."
+    cas "She was just worried you'd chuck her out if you didn't like her."
+    "Casper starts to eat their slice of cake, as if they'd just revealed something casual."
+    player "I wouldn't do that, I like her."
+    "Casper doesn't say another word."
+    "Chloe bursts in, tugging Henry by the arm."
+    hide casper
+    show chloe at left
+    show henry at right
+    chl "Sit! Eat!"
+    "She smiles as she practically shoves Henry into a seat."
+    h "Yes, yes. Calm down, Chloe."
+    "Henry adjusts his clothes from Chloe's rough handling and begins to dig into his slice."
+    chl "Is it good?!"
+    h "Yes. Well done, both of you. I assume [player_name] helped you out a lot?"
+    show chloe blush
+    chl "Maaaaybe."
+    chl "[player_name], are you not gonna have some too?"
+    player "Oh, yeah. Sure."
+    hide henry
+    hide chloe
+    "You sit down at the table and enjoy a nice slice of cake with the others."
+    "The evening is full of laughter and jokes."
+    "You really feel like you've formed a bond with these three."
+    "Especially Chloe."
+    
+    scene bg dining
+    with fade
+    show henry at center
+    h "[player_name], you will be glad to know that I have fixed the issue."
+    h "We can all return to the Personal Computer now."
+    show henry at right with move
+    show chloe at left
+    chl "Already? But we're having so much fun!"
+    h "But [player_name] will probably want their Personal Computer fixed, no?"
+    show chloe upset
+    chl "I guess..."
+    chl "Okay, fine. Let's go and get put back."
+    hide henry
+    show chloe upset at center with move
+    "Chloe is the last to stand up from the table."
+    "You gently hold her arm and guide her up."
+    player "Hey, it's gonna be okay. You aren't going away forever, yeah?"
+    chl "Yeah... Yeah, I'll still be there."
+    "You and Chloe head back to your room."
+
+    scene bg singlebedroom
+    with blinds
+    show chloe blush
+    "Chloe takes your hands."
+    chl "Well, this was fun. Getting to spend time with you and all."
+    chl "This is just see you later."
+    chl "Just sit and look away, this bit is embarrassing..."
+    chl "Okay?"
+    "You nod and sit down at your desk chair."
+    "The last thing you see before you swivel around is Chloe's smiling face."
+    hide chloe
+    "When you turn back around, all that's left is a pile of parts."
+
+    scene bg singlebedroom
+    with fade
+    "You boot up your PC."
+    "It runs smoother than before, and the temperature is low."
+    "You boot up the game you wanted to play earlier, the taste of sugar still on your lips."
+    "{b}-Good Ending: A slice of perfection-{/b}"
+
     return
-
-
-
-

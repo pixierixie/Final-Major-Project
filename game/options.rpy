@@ -30,6 +30,31 @@ define config.version = "0.9"
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
+A game where your PC parts have turned into people! And oh no... it's a dating sim?!
+
+'Reboot' is a game where your PC has come alive and it's up to you whether you want to date these polished parts or turn them off in more ways than one. ;)
+
+
+Credits:
+Eleanor Rix - Narrative, Programming, Audio.
+Ari Brown - Character Art, UI Art, Audio.
+
+
+Backgrounds:
+Spiral Atlas: https://spiralatlas.itch.io/house-visual-novel-backgrounds 
+
+Kinetic Tags:
+Wattson: https://wattson.itch.io/kinetic-text-tags 
+
+Auto Highlight:
+Wattson: https://wattson.itch.io/renpy-auto-highlight 
+
+UI Pop Up SFX:
+Fulminislctus: https://fulminisictus.itch.io/visual-novel-audio-pack  
+
+Music:
+DanAndPhilBEATS - Lowave records: https://open.spotify.com/artist/5gewx7W06vXxgSpmOWiPqm
+
 """)
 
 

@@ -211,7 +211,7 @@ define gui.choice_button_borders = Borders(100, 5, 100, 5)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = '#888888'
+define gui.choice_button_text_idle_color = '#b3727d'
 define gui.choice_button_text_hover_color = "#ffffff"
 define gui.choice_button_text_insensitive_color = '#8888887f'
 
@@ -276,6 +276,7 @@ define gui.slot_spacing = 10
 
 ## The position of the main menu text.
 define gui.main_menu_text_xalign = 1.0
+
 
 
 ## Frames ######################################################################

@@ -123,7 +123,7 @@ label Chloe_Route_Continue:
             $ renpy.notify("+1 relationship") 
             "You grab a piping bag and fill it with bright pink icing."
             "Chloe throws on some edible decorations made of sugar."
-            "The cake is a mess of colour, but it s delicious."
+            "The cake is a mess of colour, but it's delicious."
 
         "Ignore Chloe's suggestions.":
             $ chlbadpoint += +1

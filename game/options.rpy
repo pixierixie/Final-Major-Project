@@ -37,6 +37,7 @@ A game where your PC parts have turned into people! And oh no... it's a dating s
 
 Credits:
 Eleanor Rix - Narrative, Programming, Audio.
+
 Ari Brown - Character Art, UI Art, Audio.
 
 

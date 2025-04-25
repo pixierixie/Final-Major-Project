@@ -370,6 +370,9 @@ screen main_menu():
             text "[config.name!t]":
                 style "main_menu_title"
 
+        vbox:
+            style "main_menu_version_vbox"
+
             text "[config.version]":
                 style "main_menu_version"
 
@@ -379,6 +382,7 @@ style main_menu_vbox is vbox
 style main_menu_text is gui_text
 style main_menu_title is main_menu_text
 style main_menu_version is main_menu_text
+style main_menu_version_vbox is vbox
 
 style main_menu_frame:
     xsize 280
@@ -387,11 +391,22 @@ style main_menu_frame:
     background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 1.0
+    xalign 0.92
     xoffset -20
     xmaximum 800
-    yalign 1.0
+    yalign 0.97
     yoffset -20
+
+
+style main_menu_version_vbox:
+    xalign 0.99
+    xoffset -20
+    xmaximum 800
+    yalign 0.97
+    yoffset -20
+
+
+
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)

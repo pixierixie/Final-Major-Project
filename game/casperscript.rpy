@@ -106,7 +106,7 @@ label Casper_Route:
             "Casper stops for a second and pauses the game."
             "They take a few deep breaths before continuing the game, less agitated than before."
 
-        "Let Casper overlock.":
+        "Let Casper overclock.":
             $ casbadpoint += +1
             play sound "UI Simple Cancel.mp3"
             $ renpy.notify("-1 relationship")

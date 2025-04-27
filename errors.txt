@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/chloescript.rpy", line 109: choice menuitem expects a non-empty block.
-    "I have nothing to ask.":
-                             ^
+File "game/casperscript.rpy", line 232: expected statement.
+    bg singlebedroom
+                    ^
+
+File "game/casperscript.rpy", line 238: expected statement.
+    bg singlebedroom
+                    ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Wed Apr  2 16:22:19 2025
+Sun Apr 27 17:05:24 2025

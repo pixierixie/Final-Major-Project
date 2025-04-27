@@ -231,6 +231,9 @@ label prologue:
                     jump Chloe_Route
                     #Seperate script called chloescript.rpy
                     stop music
+                "Dining Room - Casper":
+                    jump Casper_Route
+                    #Seperate script called casperscript.rpy
             return
 
 label Bad_End_1:

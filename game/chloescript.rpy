@@ -84,7 +84,7 @@ label Chloe_Route:
 
 label Chloe_Question_Choice:
     menu:
-        "Ask about Henry and Casper" if choice_1_chosen == False:
+        "Ask about Henry and Casper." if choice_1_chosen == False:
             $ choice_1_chosen = True
             chl "Those two?"
             chl "Henry is super serious."

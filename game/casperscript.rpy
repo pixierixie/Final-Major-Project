@@ -182,6 +182,7 @@ label Casper_Bad_End:
 label Casper_Good_End:
     scene bg dining
     show casper blush
+    play music ["Philacolada.mp3", "Margarita Blog.mp3"]
     cas "Good job dude!"
     cas "That fire tactic?"
     cas "Sick as hell."
@@ -219,7 +220,7 @@ label Casper_Good_End:
     h "You bring out the best in them."
     h "You should cuddle them."
     player "Huh?!"
-    player "Cudddle?!"
+    player "Cuddle?!"
     "You feel your face flush a deep red."
     "Henry chuckles as he too wraps you in a blanket."
     h "Rest."
@@ -240,5 +241,7 @@ label Casper_Good_End:
     "With the last piece in place, your PC whirs to life."
     "You load up Moonfrost Hollow."
     "And there, inside your house, is Casper's avatar."
+
+    scene bg blank
     "{b}-Good Ending: Snuggled, safe and warm.-{/b}"
     return

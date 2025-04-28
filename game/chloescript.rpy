@@ -207,6 +207,7 @@ label Chloe_Bad_End:
     "Your PC overheats no matter what you try to do."
     "You decide it's best to replace the entire coolant system."
     "Chloe was useless after all."
+    scene bg blank
     "{b}-Bad Ending: Soulless Sponge-{/b}"
     return
 
@@ -297,6 +298,8 @@ label Chloe_Good_End:
     "You boot up your PC."
     "It runs smoother than before, and the temperature is low."
     "You boot up the game you wanted to play earlier, the taste of sugar still on your lips."
+
+    scene bg blank
     "{b}-Good Ending: A slice of perfection-{/b}"
 
     return

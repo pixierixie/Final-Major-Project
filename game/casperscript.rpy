@@ -136,7 +136,7 @@ label Casper_Bad_End:
     cas "Oh fuck off."
     cas "{bt=2}{sc=1}'It's the mechanics'.{/sc}{/bt}"
     cas "Learn some real fucking skill!"
-    cas "Casper launchs the controllers across the room and storms out, leaving you in shocked silence."
+    "Casper launchs the controllers across the room and storms out, leaving you in shocked silence."
     hide casper
     "Not long after, Henry comes into the room."
     show henry
